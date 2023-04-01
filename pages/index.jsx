@@ -18,8 +18,8 @@ export default function Home() {
 
       <div className="relative">
         <Header index={0} />
-        <div className="px-6 md:px-32 my-16">
-          <section className="flex flex-col lg:flex-row items-start gap-32  justify-between">
+        <div className="px-6 md:px-16 lg:px-32 my-16">
+          <section className="flex flex-col xl:flex-row items-start gap-32  justify-between">
             <div className="max-w-[565px]">
               <h3 className="text-2xl md:text-3xl lg:text-5xl font-bold text-primary leading-10">
                 Building Better Business
@@ -48,7 +48,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="flex flex-col-reverse lg:flex-row-reverse items-start gap-32 my-16">
+          <section className="flex flex-col-reverse xl:flex-row-reverse items-start gap-32 my-16">
             <div className="max-w-[565px]">
               <h3 className="text-xl md:text-3xl lg:text-5xl font-bold text-primary">
                 Welcome to VBSB & Associates LLP
@@ -81,7 +81,7 @@ export default function Home() {
             </div>
           </section>
         </div>
-        <div className="px-6 md:px-32 py-12 md:py-16 lg:py-32 bg-gray-200">
+        <div className="px-6 md:px-16 lg:px-32 py-12 md:py-16 lg:py-32 bg-gray-200">
           <div>
             <h2 className="text-2xl md:text-3xl lg:text-5xl font-bold text-green-600 text-center">
               Our Services
