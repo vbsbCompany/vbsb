@@ -50,12 +50,7 @@ export default function Home() {
 
           <section className="flex flex-col-reverse lg:flex-row-reverse items-start gap-32 my-16">
             <div className="max-w-[565px]">
-              <h3
-                className="text-2xl md:text-3xl lg:text-5xl font-bold text-primary"
-                style={{
-                  lineHeight: "60px",
-                }}
-              >
+              <h3 className="text-xl md:text-3xl lg:text-5xl font-bold text-primary">
                 Welcome to VBSB & Associates LLP
               </h3>
               <p className="my-6 text-xl text-black/50">
