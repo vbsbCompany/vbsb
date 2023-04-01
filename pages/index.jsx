@@ -18,7 +18,7 @@ export default function Home() {
 
       <div className="relative">
         <Header index={0} />
-        <div className="px-6 lg:px-16 my-16">
+        <div className="px-6 md:px-32 my-16">
           <section className="flex flex-col lg:flex-row items-start gap-32  justify-between">
             <div className="max-w-[565px]">
               <h3 className="text-2xl md:text-3xl lg:text-5xl font-bold text-primary leading-10">
@@ -81,7 +81,7 @@ export default function Home() {
             </div>
           </section>
         </div>
-        <div className="px-6 lg:px-12 py-12 md:py-16 lg:py-32 bg-gray-200">
+        <div className="px-6 md:px-32 py-12 md:py-16 lg:py-32 bg-gray-200">
           <div>
             <h2 className="text-2xl md:text-3xl lg:text-5xl font-bold text-green-600 text-center">
               Our Services
@@ -108,7 +108,7 @@ export default function Home() {
                 {industries.map((industry) => {
                   return (
                     <div className="serve-industry-card flex gap-3 items-center justify-center px-6 py-3 bg-white text-black shadow-2xl">
-                      <p className="font-bold text-sm md:text-xl">{industry}</p>
+                      <p className="font-bold text-xs md:text-xl">{industry}</p>
                     </div>
                   );
                 })}
@@ -130,7 +130,7 @@ export default function Home() {
                 </div>
               </div> */}
 
-            <h2 className="mt-32 text-white text-xl md:text-3xl text-center font-semibold">
+            <h2 className="mt-32 text-white text-lg md:text-3xl text-center font-semibold">
               Our strength lies in the ability to combine in-depth knowledge of
               cross sections of the industry with the specialized skills of our
               professionals, spreads across our widespread network.
