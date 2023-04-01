@@ -24,29 +24,27 @@ function PresenceSection() {
             Nagar, Orai (UP)- 285001
           </address>
           <p>
-            Contact No.<a href="tel:+918982903028">+918982903028</a>
+            Contact No.<a href="tel:+919450834488">+919450834488</a>
           </p>
         </div>
         <div className="presence-card">
-          <h3>MAHARASHTA(India)</h3>
+          <h3>Indore(India)</h3>
           <p>CA Vaibhav Bhatnagar</p>
           <address>
-            Mumbai Office: A-103, Satellite Royale, Gen A.K. Vaidya Marg,
-            Goregaon East, Mumbai, Mumbai (MH) – 400063
+            405, Shreenathji Avenue, 158, RNT Marg,  Indore (MP) 452001
           </address>
           <p>
-            Contact No.<a href="tel:+91 8884237766">+91 8884237766</a>
+            Contact No.<a href="tel:+919584446996">+919584446996</a>
           </p>
         </div>
         <div className="presence-card">
-          <h3>MAHARASHTA(India)</h3>
+          <h3>Hyderabad(India)</h3>
           <p>CA Vaibhav Bhatnagar</p>
           <address>
-            Mumbai Office: A-103, Satellite Royale, Gen A.K. Vaidya Marg,
-            Goregaon East, Mumbai, Mumbai (MH) – 400063
+            Shri Sai Nagar Colony, Beerumguda, Hyderabad, Telangana- 502032
           </address>
           <p>
-            Contact No.<a href="tel:+91 8884237766">+91 8884237766</a>
+            Contact No.<a href="tel:+919052184567">+919052184567</a>
           </p>
         </div>
       </div>

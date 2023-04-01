@@ -106,7 +106,7 @@ export default function Home() {
                 {industries.map((industry) => {
                   return (
                     <div className="serve-industry-card flex gap-3 items-center justify-center px-6 py-3 bg-white text-black shadow-2xl">
-                      <p className="font-bold">{industry}</p>
+                      <p className="font-bold text-sm md:text-xl">{industry}</p>
                     </div>
                   );
                 })}

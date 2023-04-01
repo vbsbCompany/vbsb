@@ -9,7 +9,7 @@ import {
 function Footer() {
   return (
     <div className="bg-primary">
-      <div className="footer-top px-10 md:px-12 py-8 grid grid-cols-2 lg:grid-cols-3 gap-12">
+      <div className="footer-top px-6 md:px-12 py-8 grid grid-cols-1 lg:grid-cols-3 gap-12">
         <div className="footer-top-left col-span-1">
           <div className="footer-top-left-company mb-3">
             <img src="/vbsb.jpeg" alt="" className="w-[110px]" />

@@ -10,7 +10,7 @@ function index() {
     <div>
       <Header index={3} />
       <div
-        className="career-hero h-[468px] w-full relative bg-black"
+        className="career-hero h-[275px] xl:h-[468px] w-full relative bg-black"
         style={{
           backgroundImage: `url("https://vbsb.in/wp-content/uploads/2020/07/mbr-1920x1136-1.jpg")`,
           backgroundSize: "cover",

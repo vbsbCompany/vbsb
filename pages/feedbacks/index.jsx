@@ -21,9 +21,9 @@ function index() {
   return (
     <div>
       <Header index={1} />
-      <section className="px-16 lg:px-32 py-32 grid grid-cols-2 gap-32">
+      <section className="px-6 lg:px-32 py-32 grid grid-cols-1 md:grid-cols-2 gap-32">
         <div className="testimonial-hero-content">
-          <h3 className="text-6xl font-semibold">Testimonials</h3>
+          <h3 className="text-2xl md:text-6xl font-semibold">Testimonials</h3>
           <p className="text-black/50">What our clients have to say about us</p>
         </div>
         <img
@@ -32,7 +32,7 @@ function index() {
           className="shadow-2xl -rotate-1"
         />
       </section>
-      <div className="section feebacks section px-32 py-16 grid grid-cols-1 lg:grid-cols-2 gap-12">
+      <div className="section feebacks section px-6 lg:px-32 py-16 grid grid-cols-1 lg:grid-cols-2 gap-12">
         <FeedbackCard description="Striving For Excellence Everyday.... We Deliver Value Based Services To Our Clients, Resulting In Growth And Enhancing Business Prospects.The same text is getting repeated on the landing page on the slideshow animations." />
         <FeedbackCard
           description="Quality of images should be used in an efficient format in order to get a better image resolution for example webp format instead of the 
