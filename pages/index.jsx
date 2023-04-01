@@ -5,7 +5,7 @@ import ServiceCard from "@/components/ServiceCard";
 import Footer from "@/components/Footer";
 import PublicationCard from "@/components/PublicationCard";
 import { industries } from "@/data/industries";
-
+import GallerySlider from "@/components/GallerySlider";
 export default function Home() {
   return (
     <>
@@ -18,38 +18,44 @@ export default function Home() {
 
       <div className="relative">
         <Header index={0} />
-        <div className="px-6 lg:px-12 my-16">
+        <div className="px-6 lg:px-16 my-16">
           <section className="flex flex-col lg:flex-row items-start gap-32  justify-between">
             <div className="max-w-[565px]">
               <h3 className="text-2xl md:text-3xl lg:text-5xl font-bold text-primary leading-10">
-                Building Better Business Globally
+                Building Better Business
               </h3>
               <p className="my-6 text-xl">
-                We are a firm of Chartered Accountants in Delhi NCR with
+                We are a firm of Chartered Accountants based in bhopal with
                 multi-disciplinary service offerings. We are committed to
                 deliver qualitative and value-added exceptional client service.
               </p>
               <p className="text-xl">
                 We help you with all processes, obligations and compliances so
                 that clientele can concentrate on their business !! The strength
-                of VJM & Associates LLP lies in its ability to combine in-depth
+                of VBSB Associate lies in its ability to combine in-depth
                 knowledge of cross sections of the industry, with the
                 specialized skills of its professionals which spreads across its
-                widespread network
+                widespread network.
               </p>
             </div>
-            <div className="w-[full]  lg:w-[450px] lg:h-[450px]">
-              <img
-                src="https://images.unsplash.com/photo-1679948905560-2c06b21d43c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-                alt="glob-map"
-                className="h-full w-full"
+            <div className="w-full  lg:w-[450px] lg:h-[450px]">
+              <GallerySlider
+                images={[
+                  "/imgs/image_header_1.jpeg",
+                  "/imgs/image_header_2.jpeg",
+                ]}
               />
             </div>
           </section>
 
           <section className="flex flex-col-reverse lg:flex-row-reverse items-start gap-32 my-16">
             <div className="max-w-[565px]">
-              <h3 className="text-2xl md:text-3xl lg:text-5xl font-bold text-primary">
+              <h3
+                className="text-2xl md:text-3xl lg:text-5xl font-bold text-primary"
+                style={{
+                  lineHeight: "60px",
+                }}
+              >
                 Welcome to VBSB & Associates LLP
               </h3>
               <p className="my-6 text-xl text-black/50">
@@ -69,11 +75,12 @@ export default function Home() {
               </a>
             </div>
             <div className="w-full">
-              <div className="shadow-2xl w-[full]  lg:w-[450px] lg:h-[450px]">
-                <img
-                  src="https://vjmglobal.com/wp-content/uploads/2021/06/office.png"
-                  alt="office-table"
-                  className="w-full h-full object-cover"
+              <div className="w-full  lg:w-[450px] lg:h-[450px]">
+                <GallerySlider
+                  images={[
+                    "/imgs/image_header_3.jpeg",
+                    "/imgs/image_header_4.jpeg",
+                  ]}
                 />
               </div>
             </div>

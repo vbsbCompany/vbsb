@@ -7,7 +7,7 @@ function Header({ index }) {
     <div className="px-6 lg:px-12 py-5 flex justify-between sticky shadow-md z-50">
       <a href="/">
         <span className="text-2xl font-bold">
-          <img src="/vbsb.jpeg" alt="" className="w-[110px]" />
+          <img src="/vbsb.jpeg" alt="" className="w-[135px]" />
         </span>
       </a>
 
