@@ -22,12 +22,12 @@ function Footer() {
             <h3 className="text-white">Contact us</h3>
             <p className="text-white">
               Office: M-12, BDA Complex, Manisha Market, Bhopal, Madhya
-              Pradesh-462039 Mobile: +91 6265255490, 0755- 3550094 I www.vbsb.in
+              Pradesh-462039 Mobile: +916265255490, www.vbsb.in
             </p>
           </div>
         </div>
-        <div className="footer-top-right grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 col-span-2">
-          <div className=" text-white footer-top-right-sections-second flex flex-col items-start gap-8">
+        <div className="footer-top-right grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  col-span-2">
+          <div className="text-white footer-top-right-sections-second flex flex-col items-start gap-8">
             <div>
               <h3 className="font-semibold text-xl mb-2">Our Services</h3>
               <ul>
@@ -70,11 +70,12 @@ function Footer() {
                 </li>
               </ul>
             </div>
+          </div>
+          <div className="text-white footer-top-right-secondary">
             <div>
               <h3 className="font-semibold text-xl mb-2">Ask us</h3>
               <ul>
-                <li>Mon-Fri:09:00 am-06:00pm</li>
-                <li>Closed on Weekends</li>
+                <li>Mon-Sat:10:00 am-06:30pm</li>
               </ul>
             </div>
           </div>
