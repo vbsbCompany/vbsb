@@ -103,7 +103,7 @@ export default function Home() {
               <h2 className="text-3xl md:text-5xl text-white font-semibold text-center">
                 Industries We Serve
               </h2>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mt-12">
+              <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-12 mt-12">
                 {industries.map((industry) => {
                   return (
                     <div className="serve-industry-card flex gap-3 items-center justify-center px-6 py-3 bg-white text-black shadow-2xl">
