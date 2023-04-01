@@ -25,7 +25,7 @@ export default function Home() {
                 Building Better Business
               </h3>
               <p className="my-6 text-xl">
-                We are a firm of Chartered Accountants based in bhopal with
+                We are a firm of Chartered Accountants based in Bhopal with
                 multi-disciplinary service offerings. We are committed to
                 deliver qualitative and value-added exceptional client service.
               </p>
@@ -47,11 +47,10 @@ export default function Home() {
               />
             </div>
           </section>
-
           <section className="flex flex-col-reverse xl:flex-row-reverse items-start gap-32 my-16">
             <div className="max-w-[565px]">
               <h3 className="text-xl md:text-3xl lg:text-5xl font-bold text-primary">
-                Welcome to VBSB & Associates LLP
+                Welcome to VBSB Associates
               </h3>
               <p className="my-6 text-xl text-black/50">
                 The dynamic chartered accounting firm VBSB & Associates was
