@@ -27,12 +27,12 @@ function index() {
       </Head>
       <Header index={2} />
       <div
-        className="hero h-[275px] xl:h-[465px] bg-secondary relative"
+        className="hero h-[275px] xl:h-[465px] bg-primary relative"
         style={{
           backgroundSize: "cover",
         }}
       >
-        <div className="overlay bg-black/70 w-full h-full absolute inset-0 z-10 flex items-center justify-center">
+        <div className="overlay  w-full h-full absolute inset-0 z-10 flex items-center justify-center">
           <div>
             <h2 className="text-white text-2xl md:text-5xl xl:text-7xl">
               Why Choose Us?

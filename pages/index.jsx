@@ -106,8 +106,8 @@ export default function Home() {
               <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-12 mt-12">
                 {industries.map((industry) => {
                   return (
-                    <div className="serve-industry-card flex gap-3 items-center justify-center px-6 py-3 bg-white text-black shadow-2xl">
-                      <p className="font-bold text-xs md:text-xl">{industry}</p>
+                    <div className="serve-industry-card flex gap-3 items-center justify-center px-2 py-3 bg-white text-black shadow-2xl">
+                      <p className="font-bold text-xs md:text-md">{industry}</p>
                     </div>
                   );
                 })}
@@ -129,7 +129,7 @@ export default function Home() {
                 </div>
               </div> */}
 
-            <h2 className="mt-32 text-white text-lg md:text-3xl text-center font-semibold">
+            <h2 className="mt-32 text-white text-lg md:text-2xl text-center font-semibold">
               Our strength lies in the ability to combine in-depth knowledge of
               cross sections of the industry with the specialized skills of our
               professionals, spreads across our widespread network.
@@ -140,50 +140,17 @@ export default function Home() {
         <div className="px-8 md:px-16 lg:px-32 py-32 bg-gray-100/30">
           <div>
             <h3 className="text-3xl md:text-5xl text-center font-semibold">
-              Our Associations
+              Striving For Excellence Everyday
             </h3>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-32 mt-12">
+            <div className="grid grid-cols-1 gap-32 mt-12">
               <div className="flex flex-col items-center">
-                <img
-                  src="https://vjmglobal.com/wp-content/uploads/2019/02/EAI-International.png"
-                  alt="EA-international"
-                />
-                <h3 className="text-blue-500 font-semibold">
-                  EA International
-                </h3>
-                <p className="text-black/50">
-                  The EAI International is a globally recognized group of
-                  qualified and independent accounting and tax firms, serving
-                  clients internationally. Most importantly, an EAI member can
-                  be entrusted with transparency, ethics and professionalism in
-                  the delivery of work.
+                <img src="/vbsb.jpeg" alt="logo not rendered" />
+
+                <p className="text-black/50 text-xl text-center">
+                  We Deliver Value Based Services To Our Clients, Resulting In
+                  Growth And Enhancing Business Prospects.​ Invest Your Time And
+                  Efforts On Running Your Business. Leave The Accounting To Us.
                 </p>
-              </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-                <div>
-                  <img
-                    src="https://vjmglobal.com/wp-content/uploads/2021/06/Mask-Group-15.png"
-                    alt=""
-                  />
-                </div>
-                <div>
-                  <img
-                    src="https://vjmglobal.com/wp-content/uploads/2021/06/Group-503.png"
-                    alt=""
-                  />
-                </div>
-                <div>
-                  <img
-                    src="https://vjmglobal.com/wp-content/uploads/2021/06/Mask-Group-14.png"
-                    alt=""
-                  />
-                </div>
-                <div>
-                  <img
-                    src="https://vjmglobal.com/wp-content/uploads/2021/10/assochan-logo.png"
-                    alt=""
-                  />
-                </div>
               </div>
             </div>
           </div>

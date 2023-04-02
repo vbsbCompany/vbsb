@@ -12,7 +12,7 @@ function index() {
       <div
         className="career-hero h-[275px] xl:h-[468px] w-full relative bg-black"
         style={{
-          backgroundImage: `url("https://vbsb.in/wp-content/uploads/2020/07/mbr-1920x1136-1.jpg")`,
+          backgroundImage: `url("https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80")`,
           backgroundSize: "cover",
           backgroundAttachment: "fixed",
         }}
