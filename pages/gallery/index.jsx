@@ -13,7 +13,7 @@ function index() {
         <div className="my-12 gallery-grid grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-12">
           {[
             1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
-            20, 21, 22, 23, 24, 25, 26, 27,
+            20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31,
           ].map((num, index) => {
             return (
               <div className="cursor-pointer gallery-img w-full h-auto md:h-[320px] lg:h-auto group overflow-hidden hover:shadow-2xl rounded-md bg-gray-300 ">
