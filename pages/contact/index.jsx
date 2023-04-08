@@ -3,6 +3,7 @@ import FormField from "@/components/FormField";
 import Header from "@/components/Header";
 import Map from "@/components/Map";
 import PresenceSection from "@/components/PresenceSection";
+import WhatsAppFab from "@/components/WhatsappFab";
 import React from "react";
 
 function index() {
@@ -67,7 +68,7 @@ function index() {
             </div>
             <div>
               <h2 className="text-2xl">Contacts</h2>
-              <p>Mobile: +91 6265255490, Whatsapp: +9195134 43771</p>
+              <p>Mobile: +91 6265255490, Landline: +91 75535 50094</p>
             </div>
           </div>
         </div>
@@ -97,6 +98,7 @@ function index() {
       />
       <PresenceSection />
       <Footer />
+      <WhatsAppFab />
     </div>
   );
 }

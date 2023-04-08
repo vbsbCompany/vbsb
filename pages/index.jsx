@@ -1,11 +1,9 @@
 import Head from "next/head";
-import { Inter } from "@next/font/google";
 import Header from "@/components/Header";
 import ServiceCard from "@/components/ServiceCard";
 import Footer from "@/components/Footer";
-import PublicationCard from "@/components/PublicationCard";
 import { industries } from "@/data/industries";
-import GallerySlider from "@/components/GallerySlider";
+import WhatsAppFab from "@/components/WhatsappFab";
 export default function Home() {
   return (
     <>
@@ -153,6 +151,7 @@ export default function Home() {
         </div>
 
         <Footer />
+        <WhatsAppFab />
       </div>
     </>
   );

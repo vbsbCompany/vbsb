@@ -1,6 +1,7 @@
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import WhatsAppFab from "@/components/WhatsappFab";
 import Head from "next/head";
 import React from "react";
 
@@ -63,6 +64,7 @@ function index() {
       </section>
       <ContactSection />
       <Footer />
+      <WhatsAppFab />
     </div>
   );
 }

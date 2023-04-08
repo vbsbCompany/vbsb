@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import WhatsAppFab from "@/components/WhatsappFab";
 import React from "react";
 
 function TeamCard({ name, image, description, footer }) {
@@ -150,6 +151,7 @@ function index() {
           />
         </div>
       </section>
+      <WhatsAppFab />
       <Footer />
     </div>
   );

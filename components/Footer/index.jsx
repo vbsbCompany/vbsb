@@ -22,7 +22,7 @@ function Footer() {
             <h3 className="text-white">Contact us</h3>
             <p className="text-white">
               Office: M-12, BDA Complex, Manisha Market, Bhopal, Madhya
-              Pradesh-462039 Mobile: +916265255490, www.vbsb.in
+              Pradesh-462039 Mobile: +916265255490,+91 75535 50094, www.vbsb.in
             </p>
           </div>
         </div>

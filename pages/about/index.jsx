@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import WhatsAppFab from "@/components/WhatsappFab";
 import React from "react";
 
 function LeaderCard() {
@@ -106,6 +107,7 @@ function index() {
         </div>
       </section>
       <Footer />
+      <WhatsAppFab />
     </div>
   );
 }
