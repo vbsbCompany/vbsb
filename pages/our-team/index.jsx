@@ -5,7 +5,7 @@ import React from "react";
 function TeamCard({ name, image, description, footer }) {
   return (
     <div className="team-card shadow-xl transition-all hover:shadow-2xl hover:rounded-md grid grid-cols-1  group cursor-pointer">
-      <div className="card-cover w-full overflow-hidden h-auto">
+      <div className="card-cover w-full overflow-hidden h-[430px]">
         <img
           src={image}
           alt={`${name}-image`}
@@ -45,13 +45,13 @@ function index() {
         </div>
       </div>
 
-      <section className="px-6 lg:px-32 py-16 grid grid-cols-1 md:grid-cols-3 gap-12">
-        <div className="col-span-2">
-          <h3 className="text-4xl mb-6">
+      <section className="text-center px-6 lg:px-32 pb-3 pt-12">
+        <div>
+          <h3 className="text-4xl mb-3">
             VBSB & Associates Is A Chartered Accountancy Firm Registered With
             Institute Of Chartered Accountants Of India (ICAI).
           </h3>
-          <p className="text-2xl text-primary mb-3">
+          <p className="text-xl text-primary mb-3">
             The Firm Has Young And Energetic Partners Accompanied By Workforce
             Having Positive Approach To Provide Expert And Professional Services
             With Due Care Of Professional Ethics.
@@ -62,15 +62,9 @@ function index() {
             in building long term mutual benefit relationships.
           </p>
         </div>
-        <div className="items-center justify-center">
-          <img
-            src="https://vbsb.in/wp-content/uploads/2020/07/brand-200x200-1.png"
-            alt="VBSB-LOGO"
-          />
-        </div>
       </section>
 
-      <section className="our-team-section px-6 lg:px-32 py-16">
+      <section className="our-team-section px-6 lg:px-32 pt-3 pb-12">
         <h3 className="text-center my-12 text-4xl font-semibold">
           Our Partners
         </h3>

@@ -35,7 +35,7 @@ function Header({ index }) {
                 <FaChevronDown />
               </span>
             </a>
-            <ul className="w-[115px] group-hover:top-8 top-16  opacity-0 group-hover:opacity-100 transition-all group-hover:block dropdown-list absolute  py-2 bg-gray-200">
+            <ul className="w-[115px] group-hover:top-6 top-16  opacity-0 group-hover:opacity-100 transition-all group-hover:block dropdown-list absolute  py-2 bg-gray-200">
               <li className="w-full hover:bg-gray-300 px-2">
                 <a href="/about" className="text-black/50 text-sm">
                   The Firm
@@ -44,11 +44,6 @@ function Header({ index }) {
               <li className="w-full hover:bg-gray-300 px-2">
                 <a href="/our-team" className="text-black/50 text-sm">
                   Our Team
-                </a>
-              </li>
-              <li className="w-full hover:bg-gray-300 px-2">
-                <a href="/feedbacks" className="text-black/50 text-sm">
-                  Client Speak
                 </a>
               </li>
             </ul>

@@ -19,8 +19,8 @@ export default function Home() {
       <div className="relative">
         <Header index={0} />
         <div className="px-6 md:px-16 lg:px-32 my-16">
-          <section className="flex flex-col xl:flex-row items-start gap-16  justify-between">
-            <div className="max-w-[610px]">
+          <section className="flex flex-col xl:flex-row items-center gap-8  justify-between">
+            <div>
               <h3 className="text-2xl md:text-3xl lg:text-5xl font-bold text-primary leading-10">
                 Building Better Business
               </h3>
@@ -38,7 +38,7 @@ export default function Home() {
                 widespread network.
               </p>
             </div>
-            <div className="w-full  xl:w-[475px] xl:h-[370px]">
+            <div className="lg:min-w-[530px] w-full  xl:w-[475px] xl:h-[370px]">
               <img
                 src="/image_1.jpeg"
                 alt="Office Image"
@@ -46,8 +46,8 @@ export default function Home() {
               />
             </div>
           </section>
-          <section className="flex flex-col-reverse xl:flex-row-reverse items-start gap-16 my-16">
-            <div className="max-w-[610px]">
+          <section className="flex flex-col-reverse xl:flex-row-reverse items-center gap-16 my-8">
+            <div>
               <h3 className="text-xl md:text-3xl lg:text-5xl font-bold text-primary">
                 Welcome to VBSB Associates
               </h3>
@@ -67,14 +67,12 @@ export default function Home() {
                 About us
               </a>
             </div>
-            <div className="w-full">
-              <div className="w-full  xl:w-[470px] xl:h-[370px]">
-                <img
-                  src="/image_2.jpeg"
-                  alt="Office Image"
-                  className="w-full h-full object-cover"
-                />
-              </div>
+            <div className="lg:min-w-[530px] w-full xl:w-[470px] xl:h-[370px]">
+              <img
+                src="/image_2.jpeg"
+                alt="Office Image"
+                className="w-full h-full object-cover"
+              />
             </div>
           </section>
         </div>

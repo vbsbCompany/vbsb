@@ -23,66 +23,55 @@ function LeaderCard() {
 
 function index() {
   return (
-    <div>
+    <div className="w-full">
       <Header index={1} />
-      <div className="container py-16 px-6 lg:px-16 xl:px-32">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-          <div className="col-span-2">
-            <div className="page-header mb-8">
-              <h3 className="text-4xl font-bold uppercase text-primary">
+      <div className="py-16 px-6 lg:px-16 xl:px-32">
+        <div className="w-full">
+          <div className="w-full">
+            <div className="w-full flex items-center justify-center flex-col mb-12">
+              <img
+                src="https://vbsb.in/wp-content/uploads/2020/07/brand-200x200-1.png"
+                alt="glob-map"
+              />
+              <h3 className="text-center text-4xl font-bold uppercase text-primary">
                 About us
               </h3>
             </div>
-            <p className="text-black/50 text-xl mb-3">
+
+            <p className="text-black/50 text-xl mb-3 text-center">
               The dynamic chartered accounting firm VBSB &amp; Associates was
               founded by CA. Vaibhav Bhatnagar in 2016. We have offices in
-              Mumbai, Indore, Hyderabad, Orai,and Bhopal.
-            </p>
-            <p className="text-black/50 text-xl mb-3">
-              Our headquarter is located in Bhopal. Our business is made up of a
-              team of passionate and experienced people that are committed to
-              providing our clients with the highest-quality services as well as
-              the greatest financial and accounting services available.
-            </p>
-            <p className="text-black/50 text-xl mb-3">
-              As a result of our extensive business experience, we understand
-              the importance of accounting and financial management services for
-              businesses and are dedicated to helping our clients reach their
-              financial goals. To this end, we offer a wide range of services
-              that are specifically catered to the needs of our clients. From
-              tax planning and compliance to financial reporting and audit
-              services, we offer quick and precise solutions that aid our
-              customers in attaining their company goals.
-            </p>
-            <p className="text-black/50 text-xl mb-3">
+              Mumbai, Indore, Hyderabad, Orai,and Bhopal. Our headquarter is
+              located in Bhopal. Our business is made up of a team of passionate
+              and experienced people that are committed to providing our clients
+              with the highest-quality services as well as the greatest
+              financial and accounting services available. As a result of our
+              extensive business experience, we understand the importance of
+              accounting and financial management services for businesses and
+              are dedicated to helping our clients reach their financial goals.
+              To this end, we offer a wide range of services that are
+              specifically catered to the needs of our clients. From tax
+              planning and compliance to financial reporting and audit services,
+              we offer quick and precise solutions that aid our customers in
+              attaining their company goals.
+              <br />
               We take pleasure in our client-centric strategy, which entails
               forging enduring bonds with our customers based on honesty,
               openness, and integrity. Our team of professionals works closely
               with each customer to comprehend their unique needs and offer
-              solutions that are specifically suited to their goals.
+              solutions that are specifically suited to their goals. In order to
+              offer our clients, the most pertinent and cutting-edge solutions,
+              our organisation is dedicated to keeping up with the most recent
+              advances in the market. We use state-of-the-art technology to
+              automate our procedures and provide effective services that are
+              both cost- and value-driven. Whether you are an individual or a
+              company owner, we are here to help you navigate the complex world
+              of accounting and finance. If you need a reliable and
+              knowledgeable team of chartered accountants to help you manage
+              your finances and accomplish your business goals, go no further
+              than VBSB and Associates. Contact us right away to learn more
+              about how we can help you achieve your financial goals!
             </p>
-            <p className="text-black/50 text-xl mb-3">
-              In order to offer our clients, the most pertinent and cutting-edge
-              solutions, our organisation is dedicated to keeping up with the
-              most recent advances in the market. We use state-of-the-art
-              technology to automate our procedures and provide effective
-              services that are both cost- and value-driven.
-            </p>
-            <p className="text-black/50 text-xl mb-3">
-              Whether you are an individual or a company owner, we are here to
-              help you navigate the complex world of accounting and finance. If
-              you need a reliable and knowledgeable team of chartered
-              accountants to help you manage your finances and accomplish your
-              business goals, go no further than VBSB and Associates. Contact us
-              right away to learn more about how we can help you achieve your
-              financial goals!
-            </p>
-          </div>
-          <div className="items-center justify-center flex">
-            <img
-              src="https://vbsb.in/wp-content/uploads/2020/07/brand-200x200-1.png"
-              alt="glob-map"
-            />
           </div>
         </div>
       </div>
@@ -92,7 +81,7 @@ function index() {
           <h1 className="text-center text-3xl sm:text-4xl md:text-6xl font-semibold">
             Mission
           </h1>
-          <p className="my-3 text-center text-xl">
+          <p className="my-3 text-center text-xl text-black/50 ">
             Our mission is to simplify the complexities of financial management
             for our clients by providing tailored solutions that meet their
             unique needs and goals. Through our commitment to excellence,
@@ -105,7 +94,7 @@ function index() {
           <h1 className="text-center text-3xl sm:text-4xl md:text-6xl font-semibold">
             Vision
           </h1>
-          <p className="my-3 text-center text-xl">
+          <p className="my-3 text-center text-xl text-black/50 ">
             &quot;Striving for excellence every day.&quot;Our vision is to be a
             leading Chartered accountant firm with high professional and ethical
             standards. We aim to strive for excellence by enhancing our
