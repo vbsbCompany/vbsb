@@ -19,8 +19,8 @@ export default function Home() {
       <div className="relative">
         <Header index={0} />
         <div className="px-6 md:px-16 lg:px-32 my-16">
-          <section className="flex flex-col xl:flex-row items-start gap-32  justify-between">
-            <div className="max-w-[565px]">
+          <section className="flex flex-col xl:flex-row items-start gap-16  justify-between">
+            <div className="max-w-[570px]">
               <h3 className="text-2xl md:text-3xl lg:text-5xl font-bold text-primary leading-10">
                 Building Better Business
               </h3>
@@ -38,17 +38,16 @@ export default function Home() {
                 widespread network.
               </p>
             </div>
-            <div className="w-full  lg:w-[450px] lg:h-[450px]">
-              <GallerySlider
-                images={[
-                  "/imgs/image_header_1.jpeg",
-                  "/imgs/image_header_2.jpeg",
-                ]}
+            <div className="w-full  lg:w-[475px] lg:h-[475px]">
+              <img
+                src="/image_1.jpeg"
+                alt="Office Image"
+                className="w-full h-full object-cover"
               />
             </div>
           </section>
-          <section className="flex flex-col-reverse xl:flex-row-reverse items-start gap-32 my-16">
-            <div className="max-w-[565px]">
+          <section className="flex flex-col-reverse xl:flex-row-reverse items-start gap-16 my-16">
+            <div className="max-w-[570px]">
               <h3 className="text-xl md:text-3xl lg:text-5xl font-bold text-primary">
                 Welcome to VBSB Associates
               </h3>
@@ -70,11 +69,10 @@ export default function Home() {
             </div>
             <div className="w-full">
               <div className="w-full  lg:w-[450px] lg:h-[450px]">
-                <GallerySlider
-                  images={[
-                    "/imgs/image_header_3.jpeg",
-                    "/imgs/image_header_4.jpeg",
-                  ]}
+                <img
+                  src="/image_2.jpeg"
+                  alt="Office Image"
+                  className="w-full h-full object-cover"
                 />
               </div>
             </div>
