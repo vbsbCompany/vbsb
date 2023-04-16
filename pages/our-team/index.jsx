@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import WhatsAppFab from "@/components/WhatsappFab";
+import Head from "next/head";
 import React from "react";
 
 function TeamCard({ name, image, description, footer }) {
@@ -30,6 +31,9 @@ function TeamCard({ name, image, description, footer }) {
 function index() {
   return (
     <div>
+      <Head>
+        <title>Our Team &#8211; VBSB &#038; Associates</title>
+      </Head>
       <Header index={1} />
       <div
         className="career-hero h-[465px] w-full relative bg-black"

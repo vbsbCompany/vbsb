@@ -19,7 +19,7 @@ function Footer() {
             </p>
           </div>
           <div>
-            <h3 className="text-white">Contact us</h3>
+            <h3 className="text-white text-xl font-semibold">Contact us</h3>
             <p className="text-white">
               Office: M-12, BDA Complex, Manisha Market, Bhopal, Madhya
               Pradesh-462039 Mobile: +916265255490,+91 75535 50094, www.vbsb.in
@@ -85,49 +85,6 @@ function Footer() {
         <p className="text-white text-center">
           Copyright © 2022-2023 | All Right Reserved | VBSB
         </p>
-
-        {/* <ul className="flex items-center gap-3 mt-3">
-          <li>
-            <a
-              href="#"
-              className="w-8 h-8 bg-white flex rounded-md items-center justify-center"
-            >
-              <FaFacebookF />
-            </a>
-          </li>
-          <li>
-            <a
-              href="#"
-              className="w-8 h-8 bg-white flex rounded-md items-center justify-center"
-            >
-              <FaTwitter />
-            </a>
-          </li>
-          <li>
-            <a
-              href="#"
-              className="w-8 h-8 bg-white flex rounded-md items-center justify-center"
-            >
-              <FaGooglePlusG />
-            </a>
-          </li>
-          <li>
-            <a
-              href="#"
-              className="w-8 h-8 bg-white flex rounded-md items-center justify-center"
-            >
-              <FaYoutube />
-            </a>
-          </li>
-          <li>
-            <a
-              href="#"
-              className="w-8 h-8 bg-white flex rounded-md items-center justify-center"
-            >
-              <FaLinkedin />
-            </a>
-          </li>
-        </ul> */}
       </div>
     </div>
   );

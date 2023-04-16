@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import WhatsAppFab from "@/components/WhatsappFab";
+import Head from "next/head";
 import React from "react";
 
 function LeaderCard() {
@@ -25,6 +26,9 @@ function LeaderCard() {
 function index() {
   return (
     <div className="w-full">
+      <Head>
+        <title>About us &#8211; VBSB &#038; Associates</title>
+      </Head>
       <Header index={1} />
       <div className="py-16 px-6 lg:px-16 xl:px-32">
         <div className="w-full">
