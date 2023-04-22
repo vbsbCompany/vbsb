@@ -46,29 +46,29 @@ function index() {
         <div className="contact-left">
           <div>
             <h1 className="text-5xl ">Let’s Talk</h1>
-            <p>
+            <p className="mt-3">
               Have some big idea or brand to develop and need help? Then reach
               out we'd love to hear about your project and provide help
             </p>
           </div>
           <div>
-            <div className="mb-3 mt-3">
-              <h2 className="text-2xl">Email</h2>
+            <div className="mb-3 mt-3 flex items-start gap-3">
+              <h2>Email</h2>
               <p>
                 <a href="mailto:corporate.vbsb01@gmail.com">
                   corporate.vbsb01@gmail.com
                 </a>
               </p>
             </div>
-            <div className="mb-3">
-              <h2 className="text-2xl">Address</h2>
+            <div className="mb-3 flex items-start gap-3">
+              <h2>Address</h2>
               <p>
                 M-12 BDA Complex, Manisha Market , Shahpura Bhopal (MP) 462016
               </p>
             </div>
-            <div>
-              <h2 className="text-2xl">Contacts</h2>
-              <p>Mobile: +91 6265255490, Landline: +91 75535 50094</p>
+            <div className="flex items-start gap-3">
+              <h2>Phone</h2>
+              <p>+91755-3550094,,+917898998188</p>
             </div>
           </div>
         </div>

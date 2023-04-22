@@ -1,11 +1,4 @@
 import React from "react";
-import {
-  FaFacebookF,
-  FaGooglePlusG,
-  FaLinkedin,
-  FaTwitter,
-  FaYoutube,
-} from "react-icons/fa";
 function Footer() {
   return (
     <div className="bg-primary">
@@ -14,8 +7,8 @@ function Footer() {
           <div className="footer-top-left-company mb-3">
             <img src="/vbsb.jpeg" alt="" className="w-[110px]" />
             <p className="mt-3 text-white">
-              We&#39;re not just accountants, we&#39;re your financial growth
-              partners.&quot;
+              We&#39;re not just accountants, we're your financial growth
+              partners.
             </p>
           </div>
           <div>

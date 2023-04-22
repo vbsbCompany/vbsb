@@ -96,7 +96,7 @@ function Header({ index }) {
         <div
           className={`${
             mobile ? "block" : "hidden"
-          }  mobile-nav absolute -bottom-[210px] -left-[190px] px-3 bg-gray-100 w-[230px] py-6 shadow-2xl rounded-md`}
+          }  mobile-nav absolute -bottom-[250px] -left-[190px] px-3 bg-gray-100 w-[230px] py-6 shadow-2xl rounded-md`}
         >
           <ul className="w-full flex flex-col items-start gap-3">
             <li className="w-full text-left">

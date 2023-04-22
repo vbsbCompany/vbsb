@@ -4,6 +4,7 @@ import ServiceCard from "@/components/ServiceCard";
 import Footer from "@/components/Footer";
 import { industries } from "@/data/industries";
 import WhatsAppFab from "@/components/WhatsappFab";
+import Link from "next/link";
 export default function Home() {
   return (
     <>
@@ -84,12 +85,24 @@ export default function Home() {
               Our Services
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 my-12">
-              <ServiceCard name="Income Tax" />
-              <ServiceCard name="Goods and Services Tax" />
-              <ServiceCard name="ROC" />
-              <ServiceCard name="Auditing and Assurance" />
-              <ServiceCard name="Accounting and Book Keeping" />
-              <ServiceCard name="Project Finance" />
+              <Link href={"/services/1"}>
+                <ServiceCard name="Income Tax" />
+              </Link>
+              <Link href={"/services/2"}>
+                <ServiceCard name="GST" />
+              </Link>
+              <Link href={"/services/3"}>
+                <ServiceCard name="ROC" />
+              </Link>
+              <Link href={"/services/4"}>
+                <ServiceCard name="Auditing and Assurance" />
+              </Link>
+              <Link href={"/services/5"}>
+                <ServiceCard name="Accounting and Book Keeping" />
+              </Link>
+              <Link href={"/services/6"}>
+                <ServiceCard name="Project Finance" />
+              </Link>
             </div>
           </div>
         </div>
