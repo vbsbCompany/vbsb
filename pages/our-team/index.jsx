@@ -36,7 +36,7 @@ function index() {
       </Head>
       <Header index={1} />
       <div
-        className="career-hero h-[465px] w-full relative bg-black"
+        className="career-hero h-[365px] w-full relative bg-black"
         style={{
           backgroundImage: `url("https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80")`,
           backgroundSize: "cover",

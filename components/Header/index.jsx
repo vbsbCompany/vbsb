@@ -11,7 +11,7 @@ function Header({ index }) {
         </span>
       </a>
 
-      <nav className=" items-center gap-12 hidden lg:flex">
+      <nav className="items-center gap-12 hidden lg:flex">
         <ul className="flex items-center gap-3">
           <li>
             <a
@@ -105,8 +105,13 @@ function Header({ index }) {
               </a>
             </li>
             <li className="w-full text-left">
-              <a href="#" className="font-semibold">
-                Who We Are?
+              <a href="/about" className="font-semibold">
+                The Firm
+              </a>
+            </li>
+            <li className="w-full text-left">
+              <a href="/our-team" className="font-semibold">
+                Our Team
               </a>
             </li>
             <li className="w-full text-left">

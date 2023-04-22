@@ -20,57 +20,10 @@ function Footer() {
           </div>
           <div>
             <h3 className="text-white text-xl font-semibold">Contact us</h3>
-            <p className="text-white">
-              Office: M-12, BDA Complex, Manisha Market, Bhopal, Madhya
-              Pradesh-462039 Mobile: +916265255490,+91 75535 50094, www.vbsb.in
-            </p>
+            <p className="text-white"></p>
           </div>
         </div>
         <div className="footer-top-right grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  col-span-2">
-          <div className="text-white footer-top-right-sections-second flex flex-col items-start gap-8">
-            <div>
-              <h3 className="font-semibold text-xl mb-2">Our Services</h3>
-              <ul>
-                <li>
-                  <a href="#">Business setup India</a>
-                </li>
-                <li>
-                  <a href="#">Direct Taxation</a>
-                </li>
-                <li>
-                  <a href="#">Good and Service Tax</a>
-                </li>
-                <li>
-                  <a href="#">International Tax</a>
-                </li>
-                <li>
-                  <a href="#">Audit and Assurance</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="text-white footer-top-right-sections-third flex flex-col items-start gap-8">
-            <div>
-              <h3 className="font-semibold text-xl mb-2">Quick Links</h3>
-              <ul>
-                <li>
-                  <a href="#">Business setup India</a>
-                </li>
-                <li>
-                  <a href="#">Direct Taxation</a>
-                </li>
-                <li>
-                  <a href="#">Good and Service Tax</a>
-                </li>
-                <li>
-                  <a href="#">International Tax</a>
-                </li>
-                <li>
-                  <a href="#">Audit and Assurance</a>
-                </li>
-              </ul>
-            </div>
-          </div>
           <div className="text-white footer-top-right-secondary">
             <div>
               <h3 className="font-semibold text-xl mb-2">Ask us</h3>
@@ -82,7 +35,7 @@ function Footer() {
         </div>
       </div>
       <div className="footer-bottom px-16 py-3 bg-black/90 md:flex items-center justify-center">
-        <p className="text-white text-center">
+        <p className="text-white/50 text-center">
           Copyright © 2022-2023 | All Right Reserved | VBSB
         </p>
       </div>

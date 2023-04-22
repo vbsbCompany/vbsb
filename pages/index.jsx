@@ -84,11 +84,11 @@ export default function Home() {
               Our Services
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 my-12">
-              <ServiceCard name="Accounting and Book Keeping" />
-              <ServiceCard name="Auditing & Assurance" />
               <ServiceCard name="Income Tax" />
-              <ServiceCard name="GST" />
-              <ServiceCard name="R.O.C" />
+              <ServiceCard name="Goods and Services Tax" />
+              <ServiceCard name="ROC" />
+              <ServiceCard name="Auditing and Assurance" />
+              <ServiceCard name="Accounting and Book Keeping" />
               <ServiceCard name="Project Finance" />
             </div>
           </div>

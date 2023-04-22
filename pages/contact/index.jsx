@@ -55,8 +55,8 @@ function index() {
             <div className="mb-3 mt-3">
               <h2 className="text-2xl">Email</h2>
               <p>
-                <a href="mailto:corporate.Vbsb01@gmail.com">
-                  corporate.Vbsb01@gmail.com
+                <a href="mailto:corporate.vbsb01@gmail.com">
+                  corporate.vbsb01@gmail.com
                 </a>
               </p>
             </div>

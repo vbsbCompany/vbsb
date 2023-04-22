@@ -7,16 +7,8 @@ import React from "react";
 
 function FeatureCard({ lists }) {
   return (
-    <div className="feature-card rounded-md py-6 px-6 shadow-2xl">
-      <ul>
-        {lists.map((list) => {
-          return (
-            <li>
-              <p className="text-2xl font-semibold">{list}</p>
-            </li>
-          );
-        })}
-      </ul>
+    <div className="feature-card bg-white/50 rounded-md py-2 px-6 shadow-2xl text-center">
+      <p className="text-2xl font-semibold">{lists[0]}</p>
     </div>
   );
 }
@@ -50,16 +42,12 @@ function index() {
           </h1>
         </div>
         <div className="features-cards grid md:grid-cols-2 xl:grid-cols-3 gap-12 my-16">
-          <FeatureCard
-            lists={["Availability-Monday To Saturday 10 A.M. To 7 P.M."]}
-          />
-          <FeatureCard
-            lists={["Hard Working", "Quick Response", "Proactive"]}
-          />
-          <FeatureCard lists={["Reputable", "Experienced", "Security"]} />
-          <FeatureCard lists={["Business Savvy", "One-Stop-Shop"]} />
-          <FeatureCard lists={["Continual Training For Better Result"]} />
-          <FeatureCard lists={["100% Satisfaction Guarantee"]} />
+          <FeatureCard lists={["Area of expertise"]} />
+          <FeatureCard lists={["Client Centric Approach"]} />
+          <FeatureCard lists={["Comprehensive range of services"]} />
+          <FeatureCard lists={["Cutting Edge Technology"]} />
+          <FeatureCard lists={["Timely and accurate solutions"]} />
+          <FeatureCard lists={["Competitive Pricing"]} />
         </div>
       </section>
       <ContactSection />
