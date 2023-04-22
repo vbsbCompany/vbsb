@@ -2,6 +2,7 @@ const services = [
   {
     id: 1,
     title: `Income Tax`,
+    thumb: `https://vbsb.in/wp-content/uploads/2020/08/income1.jpg`,
     description: `We provide a wide range of income tax services as a firm of chartered accountants to assist people
         and corporations in adhering to their tax duties and maximising their tax status. Some of the income
         tax services we offer include the following:`,
@@ -27,7 +28,7 @@ const services = [
       },
       {
         id: 4,
-        title: `Tax litigation and dispute resolution: We operate as our customers&#39; legal representatives in tax
+        title: `Tax litigation and dispute resolution: We operate as our customers  legal representatives in tax
         litigation and dispute settlement, assisting them in resolving tax-related disagreements with tax
         authorities and reducing the financial effect of tax assessments.`,
       },
@@ -48,6 +49,7 @@ const services = [
   {
     id: 2,
     title: `GST`,
+    thumb: "https://vbsb.in/wp-content/uploads/2020/08/GST-Blog-Image.jpg",
     description: `As a group of Chartered Accountants, we offer a wide variety of Goods and Services Tax (GST)
     services to assist our customers in adhering to the GST laws and maximising their GST situations.
     Listed below are a few of the GST services we offer:`,
@@ -74,7 +76,7 @@ const services = [
       },
       {
         id: 5,
-        title: `GST litigation and dispute resolution: We act as our customers&#39; legal representatives in GST
+        title: `GST litigation and dispute resolution: We act as our customers  legal representatives in GST
         litigation and dispute resolution, assisting them in resolving GST-related disagreements with tax
         authorities and reducing the financial effect of GST assessments.`,
       },
@@ -88,6 +90,7 @@ const services = [
   {
     id: 3,
     title: `ROC`,
+    thumb: `https://vbsb.in/wp-content/uploads/2020/08/roc1.jpg`,
     description: `As a Chartered Accountant firm, we offer Registrar of Companies (ROC) services to help our clients
     comply with the Companies Act, 2013 and other applicable regulations. Here are some of the ROC
     services we provide:`,
@@ -129,6 +132,7 @@ const services = [
   {
     id: 4,
     title: `Auditing and Assurance`,
+    thumb: `https://vbsb.in/wp-content/uploads/2020/08/AUDIT_31-1024x768.jpg`,
     description: `We provide a broad variety of auditing and assurance services as a Chartered Accountant firm to
     assist our customers in meeting their statutory and commercial obligations. We offer the following
     auditing and assurance services:`,
@@ -171,6 +175,7 @@ const services = [
   {
     id: 5,
     title: `Bookkeeping and Accounting`,
+    thumb: `https://vbsb.in/wp-content/uploads/2020/08/50e6febb-7853-4749-9d8c-fa9f6ed3194f.png`,
     description: `As a Chartered Accountant firm, we offer a wide range of accounting and bookkeeping services to
     help our clients manage their financial transactions and maintain accurate and up-to-date financial
     records. Here are some of the accounting and bookkeeping services we provide:`,
@@ -183,22 +188,22 @@ const services = [
       },
       {
         id: 2,
-        title: `Accounts payable: We manage our clients&#39; accounts payable functions, including invoice
+        title: `Accounts payable: We manage our clients  accounts payable functions, including invoice
         processing, payment tracking, and vendor statement reconciliation.`,
       },
       {
         id: 3,
-        title: `Accounts receivable: We handle our clients&#39; accounts receivable functions, which include issuing
+        title: `Accounts receivable: We handle our clients  accounts receivable functions, which include issuing
         invoices, tracking payments, and following up with customers to ensure prompt payment.`,
       },
       {
         id: 4,
-        title: `Bank reconciliation: To guarantee accuracy and uncover any anomalies, we reconcile our clients&#39;
+        title: `Bank reconciliation: To guarantee accuracy and uncover any anomalies, we reconcile our clients 
         bank statements with their financial records.`,
       },
       {
         id: 5,
-        title: `Financial reporting: To offer a comprehensive view of our clients&#39; financial performance, we
+        title: `Financial reporting: To offer a comprehensive view of our clients  financial performance, we
         generate financial statements such as balance sheets, income statements, and cash flow statements.`,
       },
       {
@@ -211,6 +216,8 @@ const services = [
   {
     id: 6,
     title: `Project Finance`,
+    thumb:
+      "https://vbsb.in/wp-content/uploads/2020/08/project-finance-1024x1024.jpg",
     description: `As a Chartered Accountant business, we provide project finance services to assist our customers in
     obtaining funding for their projects and successfully managing their financial resources. We provide
     the following project financing services:`,
@@ -218,7 +225,7 @@ const services = [
       {
         id: 1,
         title: `Project feasibility study: We undertake feasibility studies to assess the financial, technical, and
-        commercial viability of our customers&#39; projects.`,
+        commercial viability of our customers & projects.`,
       },
       {
         id: 2,
@@ -232,7 +239,7 @@ const services = [
       },
       {
         id: 4,
-        title: `Project monitoring and reporting: We track the project&#39;s financial performance and send frequent
+        title: `Project monitoring and reporting: We track the projects financial performance and send frequent
         updates to stakeholders such as lenders, investors, and project sponsors.`,
       },
       {

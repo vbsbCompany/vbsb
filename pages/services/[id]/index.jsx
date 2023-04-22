@@ -3,6 +3,7 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 import { services } from "../../../data/services";
+import Footer from "@/components/Footer";
 function index() {
   const [filtered, setFiltered] = useState(false);
   const router = useRouter();
@@ -25,7 +26,18 @@ function index() {
       <main>
         <Header />
         <div className="container px-6 md:px-16 lg:px-32 py-12">
-          {filtered && <h1 className="text-4xl">{filtered.title}</h1>}
+          {filtered && (
+            <h1 className="text-2xl md:text-4xl font-semibold">
+              {filtered.title}
+            </h1>
+          )}
+          {filtered && (
+            <img
+              src={`${filtered.thumb}`}
+              alt="Service Thumb"
+              className="w-full h-[365px] object-cover my-12"
+            />
+          )}
           <p className="text-xl mt-6">{filtered && filtered.description}</p>
 
           {filtered && (
@@ -43,6 +55,7 @@ function index() {
           )}
         </div>
       </main>
+      <Footer />
     </div>
   );
 }

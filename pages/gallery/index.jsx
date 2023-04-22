@@ -27,7 +27,7 @@ function index() {
       <Head>
         <title>Gallery &#8211; VBSB &#038; Associates</title>
       </Head>
-      <Header />
+      <Header index={4} />
       <div className="px-6 sm:px-16 lg:px-32 py-12">
         <h1 className="text-xl sm:text-2xl md:text-3xl xl:text-6xl font-bold">
           Gallery

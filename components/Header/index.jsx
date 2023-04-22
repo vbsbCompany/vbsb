@@ -63,7 +63,7 @@ function Header({ index }) {
             <a
               href="/gallery"
               className={`hover:text-secondary ${
-                index === 5 && "text-secondary"
+                index === 4 && "text-secondary"
               } font-bold`}
             >
               Gallery
@@ -100,12 +100,22 @@ function Header({ index }) {
         >
           <ul className="w-full flex flex-col items-start gap-3">
             <li className="w-full text-left">
-              <a href="/" className="font-semibold">
+              <a
+                href="/"
+                className={`hover:text-secondary ${
+                  index === 0 && "text-secondary"
+                } font-bold`}
+              >
                 Home
               </a>
             </li>
             <li className="w-full text-left">
-              <a href="/about" className="font-semibold">
+              <a
+                href="/about"
+                className={`hover:text-secondary ${
+                  index === 1 && "text-secondary"
+                } font-bold`}
+              >
                 The Firm
               </a>
             </li>
@@ -115,12 +125,22 @@ function Header({ index }) {
               </a>
             </li>
             <li className="w-full text-left">
-              <a href="/choose-us" className="font-semibold">
+              <a
+                href="/choose-us"
+                className={`hover:text-secondary ${
+                  index === 2 && "text-secondary"
+                } font-bold`}
+              >
                 Why Choose Us
               </a>
             </li>
             <li className="w-full text-left">
-              <a href="/gallery" className="font-semibold">
+              <a
+                href="/gallery"
+                className={`hover:text-secondary ${
+                  index === 3 && "text-secondary"
+                } font-bold`}
+              >
                 Gallery
               </a>
             </li>
