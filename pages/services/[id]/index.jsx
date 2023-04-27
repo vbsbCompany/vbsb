@@ -25,7 +25,7 @@ function index() {
       </Head>
       <main>
         <Header />
-        <div className="container px-6 md:px-16 lg:px-32 py-12">
+        <div className="container px-6 md:px-16 lg:px-32 py-12 mx-auto">
           {filtered && (
             <h1 className="text-2xl md:text-4xl font-semibold">
               {filtered.title}

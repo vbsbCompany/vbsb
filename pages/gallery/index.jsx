@@ -14,7 +14,11 @@ function ImagePopover({ num, setPopover }) {
       >
         <GrClose />
       </button>
-      <img src={`/imgs/photo${num}.jpeg`} alt="" className="" />
+      <img
+        src={`/imgs/photo${num > 4 ? num + ".jpeg" : num + ".jpg"}`}
+        alt=""
+        className=""
+      />
     </div>
   );
 }
@@ -22,6 +26,8 @@ function ImagePopover({ num, setPopover }) {
 function index() {
   const [num, setNum] = useState(1);
   const [popover, setPopover] = useState(false);
+
+  console.log(num);
   return (
     <div>
       <Head>
@@ -33,10 +39,7 @@ function index() {
           Gallery
         </h1>
         <div className="my-12 gallery-grid grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-3">
-          {[
-            1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
-            20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31,
-          ].map((num, index) => {
+          {[1, 2, 4].map((num, index) => {
             return (
               <div
                 className="cursor-pointer gallery-img w-full h-auto md:h-[320px] lg:h-auto group overflow-hidden hover:shadow-2xl rounded-md bg-gray-300 "
@@ -46,13 +49,32 @@ function index() {
                 }}
               >
                 <img
-                  src={`/imgs/photo${num}.jpeg`}
+                  src={`/imgs/photo${num}.jpg`}
                   alt=""
                   className="w-full h-full object-cover group-hover:scale-110 transition-all"
                 />
               </div>
             );
           })}
+          {[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20].map(
+            (num, index) => {
+              return (
+                <div
+                  className="cursor-pointer gallery-img w-full h-auto md:h-[320px] lg:h-auto group overflow-hidden hover:shadow-2xl rounded-md bg-gray-300 "
+                  onClick={() => {
+                    setNum(num);
+                    setPopover(true);
+                  }}
+                >
+                  <img
+                    src={`/imgs/photo${num}.jpeg`}
+                    alt=""
+                    className="w-full h-full object-cover group-hover:scale-110 transition-all"
+                  />
+                </div>
+              );
+            }
+          )}
         </div>
       </div>
       <Footer />

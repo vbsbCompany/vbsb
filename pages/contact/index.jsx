@@ -79,7 +79,6 @@ function index() {
             placeholder="Email address"
             type={"email"}
           />
-          <FormField label={"Topic"} placeholder="Your Topic" type={"select"} />
           <FormField
             label={"Message"}
             placeholder="Your Message"

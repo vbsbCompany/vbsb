@@ -2,7 +2,7 @@ const services = [
   {
     id: 1,
     title: `Income Tax`,
-    thumb: `https://vbsb.in/wp-content/uploads/2020/08/income1.jpg`,
+    thumb: `/imgs/services/it.jpg`,
     description: `We provide a wide range of income tax services as a firm of chartered accountants to assist people
         and corporations in adhering to their tax duties and maximising their tax status. Some of the income
         tax services we offer include the following:`,
@@ -49,7 +49,7 @@ const services = [
   {
     id: 2,
     title: `GST`,
-    thumb: "https://vbsb.in/wp-content/uploads/2020/08/GST-Blog-Image.jpg",
+    thumb: "/imgs/services/gst.jpg",
     description: `As a group of Chartered Accountants, we offer a wide variety of Goods and Services Tax (GST)
     services to assist our customers in adhering to the GST laws and maximising their GST situations.
     Listed below are a few of the GST services we offer:`,
@@ -90,7 +90,7 @@ const services = [
   {
     id: 3,
     title: `ROC`,
-    thumb: `https://vbsb.in/wp-content/uploads/2020/08/roc1.jpg`,
+    thumb: `/imgs/services/roc.jpg`,
     description: `As a Chartered Accountant firm, we offer Registrar of Companies (ROC) services to help our clients
     comply with the Companies Act, 2013 and other applicable regulations. Here are some of the ROC
     services we provide:`,
@@ -132,7 +132,7 @@ const services = [
   {
     id: 4,
     title: `Auditing and Assurance`,
-    thumb: `https://vbsb.in/wp-content/uploads/2020/08/AUDIT_31-1024x768.jpg`,
+    thumb: `/imgs/services/audit.jpg`,
     description: `We provide a broad variety of auditing and assurance services as a Chartered Accountant firm to
     assist our customers in meeting their statutory and commercial obligations. We offer the following
     auditing and assurance services:`,
@@ -175,7 +175,7 @@ const services = [
   {
     id: 5,
     title: `Bookkeeping and Accounting`,
-    thumb: `https://vbsb.in/wp-content/uploads/2020/08/50e6febb-7853-4749-9d8c-fa9f6ed3194f.png`,
+    thumb: `/imgs/services/accounting.jpg`,
     description: `As a Chartered Accountant firm, we offer a wide range of accounting and bookkeeping services to
     help our clients manage their financial transactions and maintain accurate and up-to-date financial
     records. Here are some of the accounting and bookkeeping services we provide:`,
@@ -216,8 +216,7 @@ const services = [
   {
     id: 6,
     title: `Project Finance`,
-    thumb:
-      "https://vbsb.in/wp-content/uploads/2020/08/project-finance-1024x1024.jpg",
+    thumb: "/imgs/services/finance.jpg",
     description: `As a Chartered Accountant business, we provide project finance services to assist our customers in
     obtaining funding for their projects and successfully managing their financial resources. We provide
     the following project financing services:`,

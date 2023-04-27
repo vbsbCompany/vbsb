@@ -34,10 +34,6 @@ function index() {
         <div className="w-full">
           <div className="w-full">
             <div className="w-full flex items-center justify-center flex-col mb-12">
-              <img
-                src="https://vbsb.in/wp-content/uploads/2020/07/brand-200x200-1.png"
-                alt="glob-map"
-              />
               <h3 className="text-center text-4xl font-bold uppercase text-primary">
                 About us
               </h3>
