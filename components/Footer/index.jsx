@@ -11,10 +11,10 @@ function Footer() {
               partners.
             </p>
           </div>
-          <div>
+          {/* <div>
             <h3 className="text-white text-xl font-semibold">Contact us</h3>
             <p className="text-white"></p>
-          </div>
+          </div> */}
         </div>
         <div className="footer-top-right grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  col-span-2">
           <div className="text-white footer-top-right-secondary">
@@ -22,6 +22,19 @@ function Footer() {
               <h3 className="font-semibold text-xl mb-2">Ask us</h3>
               <ul>
                 <li>Mon-Sat:10:00 am-06:30pm</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="text-white footer-top-right-secondary">
+            <div>
+              <h3 className="font-semibold text-xl mb-2">We work in</h3>
+              <ul>
+                <li>Bhopal,Madhya Pradesh</li>
+                <li>Mumbai,Maharastra</li>
+                <li>Orai,Uttar Pradesh</li>
+                <li>Indore,Madya Pradesh</li>
+                <li>Hyderabad,Telangana</li>
               </ul>
             </div>
           </div>
