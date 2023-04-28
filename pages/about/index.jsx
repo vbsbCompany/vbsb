@@ -41,20 +41,20 @@ function index() {
 
             <p className="text-black/50 text-xl mb-3 text-center">
               The dynamic chartered accounting firm VBSB &amp; Associates was
-              founded by CA. Vaibhav Bhatnagar in 2016. We have offices in
-              Mumbai, Indore, Hyderabad, Orai,and Bhopal. Our headquarter is
-              located in Bhopal. Our business is made up of a team of passionate
-              and experienced people that are committed to providing our clients
-              with the highest-quality services as well as the greatest
-              financial and accounting services available. As a result of our
-              extensive business experience, we understand the importance of
-              accounting and financial management services for businesses and
-              are dedicated to helping our clients reach their financial goals.
-              To this end, we offer a wide range of services that are
-              specifically catered to the needs of our clients. From tax
-              planning and compliance to financial reporting and audit services,
-              we offer quick and precise solutions that aid our customers in
-              attaining their company goals.
+              founded by CA. Vaibhav Bhatnagar and CA. Akanksha Shrivastava in
+              2016. We have offices in Mumbai, Indore, Hyderabad, Orai,and
+              Bhopal. Our headquarter is located in Bhopal. Our business is made
+              up of a team of passionate and experienced people that are
+              committed to providing our clients with the highest-quality
+              services as well as the greatest financial and accounting services
+              available. As a result of our extensive business experience, we
+              understand the importance of accounting and financial management
+              services for businesses and are dedicated to helping our clients
+              reach their financial goals. To this end, we offer a wide range of
+              services that are specifically catered to the needs of our
+              clients. From tax planning and compliance to financial reporting
+              and audit services, we offer quick and precise solutions that aid
+              our customers in attaining their company goals.
               <br />
               We take pleasure in our client-centric strategy, which entails
               forging enduring bonds with our customers based on honesty,
