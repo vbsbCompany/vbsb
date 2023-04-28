@@ -7,14 +7,14 @@ import React from "react";
 function TeamCard({ name, image, description, footer }) {
   return (
     <div className="team-card shadow-xl transition-all hover:shadow-2xl hover:rounded-md grid grid-cols-1  group cursor-pointer">
-      <div className="card-cover w-full overflow-hidden h-[430px]">
+      {/* <div className="card-cover w-full overflow-hidden h-[430px]">
         <img
           src={image}
           alt={`${name}-image`}
           className="w-full  h-full object-cover transition-all
       "
         />
-      </div>
+      </div> */}
       <div className="py-6 px-3">
         <p className="text-xl font-semibold mb-3">{footer.subtitle}</p>
         <p className="text-black/50 mb-3 text-sm">{description}</p>
