@@ -28,12 +28,13 @@ export default function Home() {
               </h3>
               <p className="my-6 text-md text-black/50">
                 The dynamic chartered accounting firm VBSB & Associates was
-                founded by CA. Vaibhav Bhatnagar in 2016. We have offices in
-                Mumbai, Indore, Hyderabad, Orai,and Bhopal. Our headquarter is
-                located in Bhopal. Our business is made up of a team of
-                passionate and experienced people that are committed to
-                providing our clients with the highest-quality services as well
-                as the greatest financial and accounting services available.
+                founded by CA. Vaibhav Bhatnagar and CA. Akanksha Shrivastava in
+                2016. We have offices in Mumbai, Indore, Hyderabad, Orai,and
+                Bhopal. Our headquarter is located in Bhopal. Our business is
+                made up of a team of passionate and experienced people that are
+                committed to providing our clients with the highest-quality
+                services as well as the greatest financial and accounting
+                services available.
               </p>
               <a
                 href="/about"
