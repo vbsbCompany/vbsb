@@ -3,8 +3,19 @@ import React from "react";
 function PresenceSection() {
   return (
     <div className="py-16 px-12 lg:px-32 bg-[#135887] text-white">
-      <h2 className="text-center text-3xl mb-6">Our Presence</h2>
-      <div className="presences grid lg:grid-cols-3 xl:grid-cols-4 gap-16">
+      <h2 className="text-left text-3xl mb-6">Our Presence</h2>
+      <div className="presences grid lg:grid-cols-3 xl:grid-cols-1 gap-16">
+        <div className="presence-card">
+          <h3>Bhopal,Madhya Pradesh</h3>
+          <address>
+            M 12,BDA COMPLEX, Manisha Market, Shahpura, Bhopal, Madhya Pradesh
+            462016
+          </address>
+          <p>
+            Contact No.<a href="tel:+918884237766">+918884237766</a>
+          </p>
+        </div>
+
         <div className="presence-card">
           <h3>Mumbai,Maharastra</h3>
           <address>
