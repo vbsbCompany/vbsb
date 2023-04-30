@@ -2,7 +2,7 @@ const services = [
   {
     id: 1,
     title: `Income Tax`,
-    thumb: `/imgs/services/it.jpg`,
+    thumb: `/imgs/services/it.jpeg`,
     description: `We provide a wide range of income tax services as a firm of chartered accountants to assist people
         and corporations in adhering to their tax duties and maximising their tax status. Some of the income
         tax services we offer include the following:`,
@@ -90,7 +90,7 @@ const services = [
   {
     id: 3,
     title: `ROC`,
-    thumb: `/imgs/services/roc.jpg`,
+    thumb: `/imgs/services/roc.jpeg`,
     description: `As a Chartered Accountant firm, we offer Registrar of Companies (ROC) services to help our clients
     comply with the Companies Act, 2013 and other applicable regulations. Here are some of the ROC
     services we provide:`,
@@ -175,7 +175,7 @@ const services = [
   {
     id: 5,
     title: `Bookkeeping and Accounting`,
-    thumb: `/imgs/services/accounting.jpg`,
+    thumb: `/imgs/services/bookkeeping.jpeg`,
     description: `As a Chartered Accountant firm, we offer a wide range of accounting and bookkeeping services to
     help our clients manage their financial transactions and maintain accurate and up-to-date financial
     records. Here are some of the accounting and bookkeeping services we provide:`,
@@ -216,7 +216,7 @@ const services = [
   {
     id: 6,
     title: `Project Finance`,
-    thumb: "/imgs/services/finance.jpg",
+    thumb: "/imgs/services/project.jpeg",
     description: `As a Chartered Accountant business, we provide project finance services to assist our customers in
     obtaining funding for their projects and successfully managing their financial resources. We provide
     the following project financing services:`,
