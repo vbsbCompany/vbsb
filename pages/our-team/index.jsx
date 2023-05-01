@@ -7,14 +7,14 @@ import React from "react";
 function TeamCard({ name, image, description, footer }) {
   return (
     <div className="team-card shadow-xl transition-all hover:shadow-2xl hover:rounded-md grid grid-cols-1  group cursor-pointer">
-      {/* <div className="card-cover w-full overflow-hidden h-[430px]">
+      <div className="card-cover w-full overflow-hidden h-[430px]">
         <img
           src={image}
           alt={`${name}-image`}
           className="w-full  h-full object-cover transition-all
       "
         />
-      </div> */}
+      </div>
       <div className="py-6 px-3">
         <p className="text-xl font-semibold mb-3">{footer.subtitle}</p>
         <p className="text-black/50 mb-3 text-sm">{description}</p>
@@ -75,9 +75,7 @@ function index() {
         </h3>
         <div className="team-cards grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-16">
           <TeamCard
-            image={
-              "https://vbsb.in/wp-content/uploads/2020/07/vaibhav-612x560-1.jpg"
-            }
+            image={"/imgs/profile/vaibhav.jpeg"}
             footer={{
               subtitle:
                 "CA. Vaibhav Bhatnagar, B.Com, FCA, CFA, CS (Executive)",
@@ -89,9 +87,7 @@ function index() {
             He is also a qualified Chartered Financial Analyst (CFA) and also completed Company secretary executive program. He comes from an esteemed FMCG company and also possesses rich experience in handling corporate clients. His area of expertise is Audit, Costing and Indirect Taxation. He also gives business consultancy to various industrial Behemoth."
           />
           <TeamCard
-            image={
-              "https://vbsb.in/wp-content/uploads/2020/07/akanksha-576x405-1.jpg"
-            }
+            image={"/imgs/profile/akansha.jpeg"}
             footer={{
               subtitle: "CA. Akanksha Shrivastava, B.Com, FCA",
               email: "ca.akanksha@vbsb.in",
@@ -101,14 +97,12 @@ function index() {
             She served as a partner for four years in hardcore practicing CA firm in the areas of Auditing & Direct Taxation, where her major area of working was Statutory Audit of Corporate Clients, Banks and PSUs. She possesses rich experience in Statutory Audits & Direct Taxation. She has also gained experience in handling Incorporation, takeovers and other ROC compliance matters of companies."
           />
           <TeamCard
-            image={
-              "https://vbsb.in/wp-content/uploads/2021/10/CA.AKHIL-DIXIT-VBSB--768x768.jpg"
-            }
+            image={"/imgs/profile/akhil.jpeg"}
             footer={{
-              subtitle: "CA. Akhil Dixit, B.Com, ACA",
+              subtitle: "CA. Akhil Dixit, B.Com,LLB and FCA",
               email: "ca.akhil@vbsb.in",
             }}
-            name={"CA. Akhil Dixit, B.Com, ACA"}
+            name={"CA. Akhil Dixit, B.Com,LLB and FCA"}
             description="Mr. Akhil Dixit is the member of the Institute of Chartered Accountants of India. He has a rich experience in Internal Audits cum System Audits of major Corporate Clients.
             He works in the area of Direct Tax and also handling taxation works of Government
             departments. He has handled various Costing Analysis Projects of major Corporate Clients.
@@ -116,9 +110,7 @@ function index() {
             FMCG Company. "
           />
           <TeamCard
-            image={
-              "https://vbsb.in/wp-content/uploads/2020/07/nayan-548x560-1.jpg"
-            }
+            image={`/imgs/profile/nayan.jpeg`}
             footer={{
               subtitle: "CA. Nayan Tapadiya, B.Com, ACA",
               email: "ca.nayan@vbsb.in",
@@ -131,9 +123,7 @@ function index() {
           />
 
           <TeamCard
-            image={
-              "https://vbsb.in/wp-content/uploads/2021/10/image001-e1633679933508.jpg"
-            }
+            image={"/imgs/profile/rama.jpeg"}
             footer={{
               subtitle: "CA. Rama Chaithanya Desu, B.Com, ACA",
               email: "ca.rama@vbsb.in",
@@ -143,9 +133,7 @@ function index() {
             accounting systems."
           />
           <TeamCard
-            image={
-              "https://vbsb.in/wp-content/uploads/2021/10/WhatsApp-Image-2021-10-03-at-15.54.16-e1633679863121-1024x1024.jpeg"
-            }
+            image={"/imgs/profile/anu.jpeg"}
             footer={{
               subtitle: "CA. Anu Jain, M.Com, FCA",
               email: "ca.anu@vbsb.in",

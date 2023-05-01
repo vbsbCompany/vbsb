@@ -29,8 +29,8 @@ function PresenceSection() {
         <div className="presence-card">
           <h3>Orai,Uttar Pradesh</h3>
           <address>
-            Orai Office: Jalaun Road, Gen A.K. Near Hotel Shree Hari, New Patel
-            Nagar, Orai (UP)- 285001
+            Orai Office: Jalaun Road,Near Hotel Shree Hari, New Patel Nagar,
+            Orai (UP)- 285001
           </address>
           <p>
             Contact No.<a href="tel:+919450834488">+919450834488</a>
