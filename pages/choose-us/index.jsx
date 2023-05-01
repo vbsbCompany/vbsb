@@ -7,8 +7,8 @@ import React from "react";
 
 function FeatureCard({ lists }) {
   return (
-    <div className="feature-card bg-white/50 rounded-md py-2 px-6 shadow-2xl text-center">
-      <p className="text-2xl font-semibold">{lists[0]}</p>
+    <div className="feature-card bg-white/50 rounded-md py-2 px-4 shadow-2xl text-center">
+      <p className="text-xl font-semibold">{lists[0]}</p>
     </div>
   );
 }
