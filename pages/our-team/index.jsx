@@ -6,12 +6,12 @@ import React from "react";
 
 function TeamCard({ name, image, description, footer }) {
   return (
-    <div className="team-card shadow-xl transition-all hover:shadow-2xl hover:rounded-md grid grid-cols-1  group cursor-pointer bg-primary">
+    <div className="rounded-md group team-card shadow-xl transition-all hover:shadow-2xl hover:rounded-md grid grid-cols-1  group cursor-pointer bg-primary">
       <div className="card-cover w-full overflow-hidden h-[430px]">
         <img
           src={image}
           alt={`${name}-image`}
-          className="w-full  h-full object-cover transition-all
+          className="w-full  h-full object-cover transition-all rounded-t-md group-hover:rounded-t-md
       "
         />
       </div>
