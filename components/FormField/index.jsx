@@ -26,7 +26,7 @@ function FormField({ name, type, value, setValue, placeholder, id, label }) {
       )}
 
       {type === "multi" && (
-        <input
+        <textarea
           type={type}
           name={name}
           id={id}

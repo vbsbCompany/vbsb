@@ -18,11 +18,6 @@ function TeamCard({ name, image, description, footer }) {
       <div className="py-6 px-3">
         <p className="text-xl font-semibold mb-3">{footer.subtitle}</p>
         <p className="text-black/50 mb-3 text-sm">{description}</p>
-        <div>
-          <a href={`mailto:${footer.email}`}>
-            <p className="text-primary font-semibold">{footer.email}</p>
-          </a>
-        </div>
       </div>
     </div>
   );

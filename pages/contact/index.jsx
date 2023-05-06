@@ -4,9 +4,12 @@ import Header from "@/components/Header";
 import Map from "@/components/Map";
 import PresenceSection from "@/components/PresenceSection";
 import WhatsAppFab from "@/components/WhatsappFab";
-import React from "react";
+import React, { useState } from "react";
 
 function index() {
+  const [fullname, setFullName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
   return (
     <div>
       <Header index={3} />
@@ -73,16 +76,26 @@ function index() {
           </div>
         </div>
         <div className="contact-form flex flex-col items-start gap-3">
-          <FormField label={"Name"} placeholder="Full Name" type={"text"} />
+          <FormField
+            label={"Name"}
+            placeholder="Full Name"
+            type={"text"}
+            value={fullname}
+            setValue={setFullName}
+          />
           <FormField
             label={"Email"}
             placeholder="Email address"
             type={"email"}
+            value={email}
+            setValue={setEmail}
           />
           <FormField
             label={"Message"}
             placeholder="Your Message"
             type={"multi"}
+            value={message}
+            setValue={setMessage}
           />
           <button className="w-full h-[42px] bg-primary text-white font-semibold">
             Submit
