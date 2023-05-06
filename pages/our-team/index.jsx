@@ -6,7 +6,7 @@ import React from "react";
 
 function TeamCard({ name, image, description, footer }) {
   return (
-    <div className="team-card shadow-xl transition-all hover:shadow-2xl hover:rounded-md grid grid-cols-1  group cursor-pointer">
+    <div className="team-card shadow-xl transition-all hover:shadow-2xl hover:rounded-md grid grid-cols-1  group cursor-pointer bg-primary">
       <div className="card-cover w-full overflow-hidden h-[430px]">
         <img
           src={image}
@@ -15,9 +15,11 @@ function TeamCard({ name, image, description, footer }) {
       "
         />
       </div>
-      <div className="py-6 px-3">
-        <p className="text-xl font-semibold mb-3">{footer.subtitle}</p>
-        <p className="text-black/50 mb-3 text-sm">{description}</p>
+      <div className="py-4 px-3">
+        <p className="text-md font-semibold mb-3 text-white">
+          {footer.subtitle}
+        </p>
+        <p className="text-white/50 mb-3 text-sm">{description}</p>
       </div>
     </div>
   );
@@ -45,7 +47,7 @@ function index() {
         </div>
       </div>
 
-      <section className="text-center px-6 lg:px-32 pb-3 pt-12">
+      <section className="text-center px-6 lg:px-32 pb-3 pt-32">
         <div>
           <h3 className="text-4xl mb-3">
             VBSB & Associates Is A Chartered Accountancy Firm Registered With
@@ -65,10 +67,10 @@ function index() {
       </section>
 
       <section className="our-team-section px-6 lg:px-32 pt-3 pb-12">
-        <h3 className="text-center my-12 text-4xl font-semibold">
+        <h3 className="text-center my-12 text-4xl font-semibold text-primary">
           Our Partners
         </h3>
-        <div className="team-cards grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-16">
+        <div className="team-cards grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
           <TeamCard
             image={"/imgs/profile/vaibhav.jpeg"}
             footer={{
