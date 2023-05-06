@@ -34,12 +34,20 @@ function index() {
         <div className="w-full">
           <div className="w-full">
             <div className="w-full flex items-center justify-center flex-col mb-12">
-              <h3 className="text-center text-4xl font-bold uppercase text-primary">
+              <h3 className="text-center text-2xl md:text-4xl font-bold uppercase text-primary">
                 About us
               </h3>
             </div>
 
-            <p className="text-black/50 text-xl mb-3 text-center">
+            <div className="w-full md:h-[768px] my-6">
+              <img
+                src="/imgs/about.jpeg"
+                alt="about-caption-header-image"
+                className="w-full object-cover h-full rounded-xl"
+              />
+            </div>
+
+            <p className="text-black/50 text-md mb-3 text-center">
               The dynamic chartered accounting firm VBSB &amp; Associates was
               founded by CA. Vaibhav Bhatnagar and CA. Akanksha Shrivastava in
               2016. We have offices in Mumbai, Indore, Hyderabad, Orai,and
@@ -55,7 +63,8 @@ function index() {
               clients. From tax planning and compliance to financial reporting
               and audit services, we offer quick and precise solutions that aid
               our customers in attaining their company goals.
-              <br />
+            </p>
+            <p className="text-black/50 text-md mb-3 text-center">
               We take pleasure in our client-centric strategy, which entails
               forging enduring bonds with our customers based on honesty,
               openness, and integrity. Our team of professionals works closely
@@ -79,10 +88,10 @@ function index() {
 
       <section className="mb-12 px-6 lg:px-16 xl:px-32 py-16 flex flex-col items-center gap-12">
         <div className="flex flex-col items-center gap-3">
-          <h1 className="text-center text-3xl sm:text-4xl md:text-6xl font-semibold">
+          <h1 className="text-center text-3xl sm:text-4xl font-semibold">
             Mission
           </h1>
-          <p className="my-3 text-center text-xl text-black/50 ">
+          <p className="my-3 text-center text-md text-black/50 ">
             Our mission is to simplify the complexities of financial management
             for our clients by providing tailored solutions that meet their
             unique needs and goals. Through our commitment to excellence,
@@ -92,10 +101,10 @@ function index() {
         </div>
 
         <div className="flex flex-col items-center gap-3">
-          <h1 className="text-center text-3xl sm:text-4xl md:text-6xl font-semibold">
+          <h1 className="text-center text-3xl sm:text-4xl font-semibold">
             Vision
           </h1>
-          <p className="my-3 text-center text-xl text-black/50 ">
+          <p className="my-3 text-center text-md text-black/50 ">
             &quot;Striving for excellence every day.&quot;Our vision is to be a
             leading Chartered accountant firm with high professional and ethical
             standards. We aim to strive for excellence by enhancing our
