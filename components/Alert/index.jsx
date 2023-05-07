@@ -19,7 +19,7 @@ function Alert({ message, handleClose }) {
             <button
               className="py-2 px-3 bg-green-400 hover:bg-green-600 transition-all text-white rounded-md min-w-[130px]"
               onClick={() => {
-                setClose("ok");
+                handleClose("ok");
               }}
             >
               Ok

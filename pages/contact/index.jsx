@@ -36,11 +36,13 @@ function index() {
   };
 
   const handleClose = (feed) => {
-    setPopup(false);
     if (feed === "ok") {
       setEmail("");
       setMessage("");
       setFullName("");
+      setPopup(false);
+    } else {
+      setPopup(false);
     }
   };
   return (
