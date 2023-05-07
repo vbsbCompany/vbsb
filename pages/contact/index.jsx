@@ -16,6 +16,7 @@ function index() {
   const [popup, setPopup] = useState(false);
 
   const handleContact = async () => {
+    console.log(process.env.EMAIL, process.env.APP_PASSWORD);
     try {
       const r = await axios.post(`/api/contact`, {
         name: fullname,
