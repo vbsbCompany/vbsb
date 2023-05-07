@@ -5,11 +5,43 @@ import Map from "@/components/Map";
 import PresenceSection from "@/components/PresenceSection";
 import WhatsAppFab from "@/components/WhatsappFab";
 import React, { useState } from "react";
-
+import axios from "axios";
+import Alert from "@/components/Alert";
+const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 function index() {
   const [fullname, setFullName] = useState("");
   const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
+  const [msg, setMessage] = useState("");
+  const [emailFeedback, setEmailFeedback] = useState("");
+  const [popup, setPopup] = useState(false);
+
+  const handleContact = async () => {
+    try {
+      const r = await axios.post(`/api/contact`, {
+        name: fullname,
+        email: email,
+        message: msg,
+      });
+      setPopup(true);
+      console.log(r);
+      const { message } = r.data;
+      setEmailFeedback(message);
+    } catch (e) {
+      if (e.response.data) {
+        setPopup(true);
+        console.log(e.response.data);
+      }
+    }
+  };
+
+  const handleClose = (feed) => {
+    setPopup(false);
+    if (feed === "ok") {
+      setEmail("");
+      setMessage("");
+      setFullName("");
+    }
+  };
   return (
     <div>
       <Header index={3} />
@@ -94,10 +126,20 @@ function index() {
             label={"Message"}
             placeholder="Your Message"
             type={"multi"}
-            value={message}
+            value={msg}
             setValue={setMessage}
           />
-          <button className="w-full h-[42px] bg-primary text-white font-semibold">
+          <button
+            className={`w-full h-[42px] ${
+              !emailRegex.test(email) || !fullname || !msg
+                ? "bg-primary/50"
+                : "bg-primary"
+            }  text-white font-semibold`}
+            onClick={handleContact}
+            disabled={
+              !emailRegex.test(email) || !fullname || !msg ? true : false
+            }
+          >
             Submit
           </button>
         </div>
@@ -111,6 +153,7 @@ function index() {
       <PresenceSection />
       <Footer />
       <WhatsAppFab />
+      {popup && <Alert message={emailFeedback} handleClose={handleClose} />}
     </div>
   );
 }
