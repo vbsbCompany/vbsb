@@ -4,7 +4,7 @@ import { FaChevronDown } from "react-icons/fa";
 function Header({ index }) {
   const [mobile, setMobile] = useState(false);
   return (
-    <div className="px-6 lg:px-32 py-2 flex justify-between sticky shadow-md z-50">
+    <div className="bg-white px-6 lg:px-32 py-2 flex justify-between sticky shadow-md z-50">
       <a href="/">
         <span className="text-2xl font-bold">
           <img src="/vbsb.jpeg" alt="" className="w-[135px]" />
@@ -63,10 +63,20 @@ function Header({ index }) {
             <a
               href="/gallery"
               className={`hover:text-secondary ${
-                index === 4 && "text-secondary"
+                index === 3 && "text-secondary"
               } font-bold`}
             >
               Gallery
+            </a>
+          </li>
+          <li>
+            <a
+              href="/deadlines"
+              className={`hover:text-secondary ${
+                index === 4 && "text-secondary"
+              } font-bold`}
+            >
+              Deadlines
             </a>
           </li>
           {/* <li>
