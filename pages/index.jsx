@@ -5,7 +5,21 @@ import Footer from "@/components/Footer";
 import { industries } from "@/data/industries";
 import WhatsAppFab from "@/components/WhatsappFab";
 import Link from "next/link";
+import HiringModal from "@/components/HiringModal";
+import { useEffect, useState } from "react";
 export default function Home() {
+  const [modal, setModal] = useState(false);
+  useEffect(() => {
+    async function checkLocalStorage() {
+      const hiringModal = window.localStorage.getItem("hiringModal");
+      if (hiringModal) {
+        setModal(false);
+      } else {
+        setModal(true);
+      }
+    }
+    checkLocalStorage();
+  }, []);
   return (
     <>
       <Head>
@@ -166,7 +180,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-
+        {modal && <HiringModal setModal={setModal} />}
         <Footer />
         <WhatsAppFab />
       </div>
