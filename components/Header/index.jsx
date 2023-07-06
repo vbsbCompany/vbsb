@@ -130,7 +130,12 @@ function Header({ index }) {
               </a>
             </li>
             <li className="w-full text-left">
-              <a href="/our-team" className="font-semibold">
+              <a
+                href="/our-team"
+                className={`hover:text-secondary ${
+                  index === 2 && "text-secondary"
+                } font-bold`}
+              >
                 Our Team
               </a>
             </li>
@@ -138,7 +143,7 @@ function Header({ index }) {
               <a
                 href="/choose-us"
                 className={`hover:text-secondary ${
-                  index === 2 && "text-secondary"
+                  index === 3 && "text-secondary"
                 } font-bold`}
               >
                 Why Choose Us
@@ -148,7 +153,7 @@ function Header({ index }) {
               <a
                 href="/gallery"
                 className={`hover:text-secondary ${
-                  index === 3 && "text-secondary"
+                  index === 4 && "text-secondary"
                 } font-bold`}
               >
                 Gallery
@@ -158,7 +163,7 @@ function Header({ index }) {
               <a
                 href="/contact"
                 className={`hover:text-secondary ${
-                  index === 4 && "text-secondary"
+                  index === 5 && "text-secondary"
                 } font-bold`}
               >
                 Contact
@@ -168,7 +173,7 @@ function Header({ index }) {
               <a
                 href="/deadlines"
                 className={`hover:text-secondary ${
-                  index === 5 && "text-secondary"
+                  index === 6 && "text-secondary"
                 } font-bold`}
               >
                 Deadlines
