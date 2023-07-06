@@ -157,9 +157,21 @@ function Header({ index }) {
             <li className="w-full text-left">
               <a
                 href="/contact"
-                className="px-6 py-2 bg-secondary text-white rounded-full w-full"
+                className={`hover:text-secondary ${
+                  index === 4 && "text-secondary"
+                } font-bold`}
               >
                 Contact
+              </a>
+            </li>
+            <li className="w-full text-left">
+              <a
+                href="/deadlines"
+                className={`hover:text-secondary ${
+                  index === 5 && "text-secondary"
+                } font-bold`}
+              >
+                Deadlines
               </a>
             </li>
           </ul>
