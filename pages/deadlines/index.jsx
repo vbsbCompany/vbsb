@@ -61,7 +61,7 @@ function index() {
         <title>Gallery &#8211; VBSB &#038; Associates</title>
       </Head>
       <Header index={4} />
-      <div className="w-full h-screen px-6 md:px-16 py-16 grid grid-cols-1  gap-32 bg-white">
+      <div className="w-full  px-6 md:px-16 py-16 grid grid-cols-1  gap-32 bg-white">
         <div className="w-full flex flex-col items-start gap-12">
           <div>
             <h1 className="text-3xl">Tax Calendar</h1>
