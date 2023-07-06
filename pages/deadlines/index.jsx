@@ -23,7 +23,7 @@ function DeadlineList({ date, description }) {
   ];
   console.log("SELECTED DATE", date);
   return (
-    <div className="deadline_list py-3 px-3 bg-green-100">
+    <div className="deadline_list py-3 px-3 bg-green-100 w-full">
       <h3 className="font-bold">
         {`${date.getDate()} ${months[date.getMonth()]} ${date.getFullYear()}`}
       </h3>
@@ -61,8 +61,11 @@ function index() {
         <title>Gallery &#8211; VBSB &#038; Associates</title>
       </Head>
       <Header index={4} />
-      <div className="w-full h-screen px-6 md:px-16 py-16 grid grid-cols-1  gap-32">
+      <div className="w-full h-screen px-6 md:px-16 py-16 grid grid-cols-1  gap-32 bg-white">
         <div className="w-full flex flex-col items-start gap-12">
+          <div>
+            <h1 className="text-3xl">Tax Calendar</h1>
+          </div>
           <div className="deadline__controls__header">
             <select
               name="form_types"
@@ -81,21 +84,32 @@ function index() {
           </div>
           <Calendar onChange={onChange} value={value} className={"w-full"} />
         </div>
+
         {TDSDATA.length > 0 ? (
-          <div className="w-full px-6 py-6 bg-white rounded-md max-h-[344px]  flex flex-col items-start gap-3">
-            {TDSDATA.map((d, i) => {
-              return (
-                <DeadlineList
-                  key={i}
-                  date={value}
-                  description={d?.description}
-                />
-              );
-            })}
+          <div className="border px-6 py-6 rounded-md border-black">
+            <div className="deadline-header">
+              <h2 className="text-xl">Due Dates for selected month and year</h2>
+            </div>
+            <div className="w-full  bg-white rounded-md  flex flex-col items-start gap-3 mt-3">
+              {TDSDATA.map((d, i) => {
+                return (
+                  <DeadlineList
+                    key={i}
+                    date={value}
+                    description={d?.description}
+                  />
+                );
+              })}
+            </div>
           </div>
         ) : (
-          <div className="w-full  px-6 py-6 rounded-md max-h-[344px]  flex flex-col items-start gap-3">
-            <p>No Data Avialable</p>
+          <div className="border w-full border-black px-6 py-6 rounded-md">
+            <div className="deadline-header">
+              <h2 className="text-xl">Due Dates for selected month and year</h2>
+            </div>
+            <div className="w-full   rounded-md max-h-[344px]  flex flex-col items-start gap-3">
+              <p className="text-black/50">No Data Avialable</p>
+            </div>
           </div>
         )}
       </div>
