@@ -79,6 +79,16 @@ function Header({ index }) {
               Deadlines
             </a>
           </li>
+          <li>
+            <a
+              href="/careers"
+              className={`hover:text-secondary ${
+                index === 5 && "text-secondary"
+              } font-bold`}
+            >
+              Careers
+            </a>
+          </li>
           {/* <li>
             <a
               href="/blog"
