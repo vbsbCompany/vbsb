@@ -94,7 +94,7 @@ function index() {
             She served as a partner for four years in hardcore practicing CA firm in the areas of Auditing & Direct Taxation, where her major area of working was Statutory Audit of Corporate Clients, Banks and PSUs. She possesses rich experience in Statutory Audits & Direct Taxation. She has also gained experience in handling Incorporation, takeovers and other ROC compliance matters of companies."
           />
           <TeamCard
-            image={"/imgs/profile/akhil.jpeg"}
+            image={"/imgs/profile/akkhil_2023.jpg"}
             footer={{
               subtitle: "CA. Akhil Dixit, B.Com,LLB and FCA",
               email: "ca.akhil@vbsb.in",
@@ -107,7 +107,7 @@ function index() {
             FMCG Company. "
           />
           <TeamCard
-            image={`/imgs/profile/nayan.jpeg`}
+            image={`/imgs/profile/nayan_2023.jpeg`}
             footer={{
               subtitle: "CA. Nayan Tapadiya, B.Com, ACA",
               email: "ca.nayan@vbsb.in",
