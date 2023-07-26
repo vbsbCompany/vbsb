@@ -76,7 +76,7 @@ function Header({ index }) {
                 index === 4 && "text-secondary"
               } font-bold`}
             >
-              Deadlines
+              Compliance Calendar
             </a>
           </li>
           <li>
@@ -116,77 +116,47 @@ function Header({ index }) {
         <div
           className={`${
             mobile ? "block" : "hidden"
-          }  mobile-nav absolute -bottom-[250px] -left-[190px] px-3 bg-gray-100 w-[230px] py-6 shadow-2xl rounded-md`}
+          }  mobile-nav absolute -bottom-[300px] -left-[190px] px-3 bg-gray-100 w-[230px] py-6 shadow-2xl rounded-md`}
         >
           <ul className="w-full flex flex-col items-start gap-3">
             <li className="w-full text-left">
-              <a
-                href="/"
-                className={`hover:text-secondary ${
-                  index === 0 && "text-secondary"
-                } font-bold`}
-              >
+              <a href="/" className={`hover:text-secondary font-bold`}>
                 Home
               </a>
             </li>
             <li className="w-full text-left">
-              <a
-                href="/about"
-                className={`hover:text-secondary ${
-                  index === 1 && "text-secondary"
-                } font-bold`}
-              >
+              <a href="/about" className={`hover:text-secondary font-bold`}>
                 The Firm
               </a>
             </li>
             <li className="w-full text-left">
-              <a
-                href="/our-team"
-                className={`hover:text-secondary ${
-                  index === 2 && "text-secondary"
-                } font-bold`}
-              >
+              <a href="/our-team" className={`hover:text-secondary font-bold`}>
                 Our Team
               </a>
             </li>
             <li className="w-full text-left">
-              <a
-                href="/choose-us"
-                className={`hover:text-secondary ${
-                  index === 3 && "text-secondary"
-                } font-bold`}
-              >
+              <a href="/choose-us" className={`hover:text-secondary font-bold`}>
                 Why Choose Us
               </a>
             </li>
             <li className="w-full text-left">
-              <a
-                href="/gallery"
-                className={`hover:text-secondary ${
-                  index === 4 && "text-secondary"
-                } font-bold`}
-              >
+              <a href="/gallery" className={`hover:text-secondary font-bold`}>
                 Gallery
               </a>
             </li>
             <li className="w-full text-left">
-              <a
-                href="/contact"
-                className={`hover:text-secondary ${
-                  index === 5 && "text-secondary"
-                } font-bold`}
-              >
+              <a href="/contact" className={`hover:text-secondary  font-bold`}>
                 Contact
               </a>
             </li>
             <li className="w-full text-left">
-              <a
-                href="/deadlines"
-                className={`hover:text-secondary ${
-                  index === 6 && "text-secondary"
-                } font-bold`}
-              >
-                Deadlines
+              <a href="/deadlines" className={`hover:text-secondary font-bold`}>
+                Compliance Calendar
+              </a>
+            </li>
+            <li className="w-full text-left">
+              <a href="/careers" className={`hover:text-secondary  font-bold`}>
+                Careers
               </a>
             </li>
           </ul>

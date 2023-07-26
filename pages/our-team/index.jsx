@@ -107,7 +107,7 @@ function index() {
             FMCG Company. "
           />
           <TeamCard
-            image={`/imgs/profile/nayan_2023.jpeg`}
+            image={`/imgs/profile/WhatsApp Image 2023-05-03 at 5.51.07 PM (1).jpeg`}
             footer={{
               subtitle: "CA. Nayan Tapadiya, B.Com, ACA",
               email: "ca.nayan@vbsb.in",
