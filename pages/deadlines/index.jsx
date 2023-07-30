@@ -3,7 +3,7 @@ import Head from "next/head";
 import React, { useEffect, useState } from "react";
 import Calendar from "react-calendar";
 import "react-calendar/dist/Calendar.css";
-import { income_tax, roc, tds } from "@/data/deadlines";
+import { gst, income_tax, roc, tds } from "@/data/deadlines";
 import Footer from "@/components/Footer";
 const months = [
   "Jan",
@@ -19,6 +19,7 @@ const months = [
   "Nov",
   "Dec",
 ];
+const years = ["2023", "2024"];
 function DeadlineList({ entry, description }) {
   console.log("SELECTED DATE", entry);
   return (
@@ -38,19 +39,35 @@ function index() {
   const [TDSDATA, setTdsData] = useState("");
 
   console.log("VALUE: ", months[value.getMonth()]);
-
+  console.log(gst);
   useEffect(() => {
     console.log(value);
     var filtered = [];
 
     if (option == "tds") {
-      filtered = tds.filter((d) =>
-        d.timestamp.includes(months[value.getMonth()])
+      filtered = tds.filter(
+        (d) =>
+          d.timestamp.includes(value.getFullYear()) &&
+          d.timestamp.includes(months[value.getMonth()])
       );
     } else if (option == "roc") {
-      filtered = roc.filter((d) => d.timestamp == value);
+      filtered = roc.filter(
+        (d) =>
+          d.timestamp.includes(value.getFullYear()) &&
+          d.timestamp.includes(months[value.getMonth()])
+      );
     } else if (option == "income_tax") {
-      filtered = income_tax.filter((d) => d.timestamp == value);
+      filtered = income_tax.filter(
+        (d) =>
+          d.timestamp.includes(value.getFullYear()) &&
+          d.timestamp.includes(months[value.getMonth()])
+      );
+    } else if (option == "gst") {
+      filtered = gst.filter(
+        (d) =>
+          d.timestamp.includes(value.getFullYear()) &&
+          d.timestamp.includes(months[value.getMonth()])
+      );
     }
     console.log("Filtered", filtered);
     setTdsData(filtered.length > 0 ? filtered : "");

@@ -66,6 +66,46 @@ const tds = [
     description:
       "Due Date for depositing TDS (for tax deducted by govt. office)",
   },
+  {
+    id: 14,
+    timestamp: "Mon Jul 31 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "Consolidated  return filing date",
+  },
+  {
+    id: 15,
+    timestamp: "Tue Oct 31 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "Consolidated  return filing date",
+  },
+  {
+    id: 16,
+    timestamp: "Wed Jan 31 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "Consolidated  return filing date",
+  },
+  {
+    id: 17,
+    timestamp: "Fri May 31 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "Consolidated  return filing date",
+  },
+  {
+    id: 18,
+    timestamp: "Thu Jun 01 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "Consolidated  return is filing",
+  },
+  {
+    id: 19,
+    timestamp: "Sat Sep 30 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "Consolidated  return is filing",
+  },
+  {
+    id: 20,
+    timestamp: "Sat Dec 30 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "Consolidated  return is filing",
+  },
+  {
+    id: 21,
+    timestamp: "Sun Mar 31 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "Consolidated  return is filing",
+  },
 ];
 
 const roc = [
@@ -79,31 +119,29 @@ const roc = [
     id: 2,
     timestamp: "Mon Oct 30 2023 00:00:00 GMT+0530 (India Standard Time)",
     description:
-      "Form AOC 4 is used to file the financial statements for each financial year with the Registrar of Companies (ROC). In the case of consolidated financial statements, the company shall file the AOC 4 CFS",
+      "Form for filing consolidated financial statements and other documents with the Registrar for NBFCs",
   },
   {
     id: 3,
     timestamp: "Mon Oct 30 2023 00:00:00 GMT+0530 (India Standard Time)",
     description:
-      "All companies listed with any stock exchange in India and their Indian subsidiaries. All companies with a capital of 5 crores or above. All companies with a turnover of 100 crores or more.",
+      "Form for filing XBRL document in respect of financial statement and other documents with the Registrar",
   },
   {
     id: 4,
     timestamp: "Wed Nov 29 2023 00:00:00 GMT+0530 (India Standard Time)",
-    description:
-      "MGT 7 is an electronic form that is allocated to all the companies by the Ministry of Corporate Affairs for filing details of their annual return. The Registrar of Companies uses to maintain this e-form via electronic mode and on the basis of the statement of correctness given by the company. ",
+    description: "Form for filing annual return by a company.",
   },
   {
     id: 5,
     timestamp: "Wed Nov 29 2023 00:00:00 GMT+0530 (India Standard Time)",
-    description:
-      "OPCs and small companies must file their annual returns in form MGT-7A",
+    description: "Form for filing annual return by OPCs and Small company.",
   },
   {
     id: 6,
     timestamp: "Mon Oct 30 2023 00:00:00 GMT+0530 (India Standard Time)",
     description:
-      "All NBFCs and their subsidiaries, holding, associate companies or joint ventures having a net worth of Rs. 500 crore or more",
+      "Form for filing financial statement and other documents with the Registrar for NBFCs",
   },
 ];
 
@@ -135,4 +173,307 @@ const income_tax = [
     description: "Belated/late return",
   },
 ];
-export { tds, roc, income_tax };
+
+const gst = [
+  {
+    id: 1,
+    timestamp: "Wed Jan 11 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR1",
+  },
+  {
+    id: 2,
+    timestamp: "Sat Feb 11 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR1",
+  },
+  {
+    id: 3,
+    timestamp: "Sat Mar 11 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GTSTR1",
+  },
+  {
+    id: 4,
+    timestamp: "Tue Apr 11 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR1",
+  },
+  {
+    id: 5,
+    timestamp: "Thu May 11 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR1",
+  },
+  {
+    id: 6,
+    timestamp: "Sun Jun 11 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR1",
+  },
+  {
+    id: 7,
+    timestamp: "Tue Jul 11 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR1",
+  },
+  {
+    id: 8,
+    timestamp: "Fri Aug 11 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR1",
+  },
+  {
+    id: 9,
+    timestamp: "Mon Sep 11 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR1",
+  },
+  {
+    id: 10,
+    timestamp: "Wed Oct 11 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR1",
+  },
+  {
+    id: 11,
+    timestamp: "Sat Nov 11 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR1",
+  },
+  {
+    id: 12,
+    timestamp: "Mon Dec 11 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR1",
+  },
+  {
+    id: 13,
+    timestamp: "Thu Jan 11 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR1",
+  },
+  {
+    id: 14,
+    timestamp: "Sun Feb 11 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR1",
+  },
+  {
+    id: 15,
+    timestamp: "Fri Mar 01 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR1",
+  },
+  {
+    id: 16,
+    timestamp: "Thu Apr 11 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR1",
+  },
+  {
+    id: 17,
+    timestamp: "Sat May 11 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR1",
+  },
+  {
+    id: 18,
+    timestamp: "Tue Jun 11 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR1",
+  },
+  {
+    id: 19,
+    timestamp: "Thu Jul 11 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR1",
+  },
+  {
+    id: 20,
+    timestamp: "Sun Aug 11 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR1",
+  },
+  {
+    id: 21,
+    timestamp: "Wed Sep 11 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR1",
+  },
+  {
+    id: 22,
+    timestamp: "Fri Oct 11 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR1",
+  },
+  {
+    id: 23,
+    timestamp: "Mon Nov 11 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR1",
+  },
+  {
+    id: 24,
+    timestamp: "Wed Dec 11 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR1",
+  },
+  {
+    id: 25,
+    timestamp: "Sat Jan 14 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR2B",
+  },
+  {
+    id: 26,
+    timestamp: "Tue Feb 14 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR2B",
+  },
+  {
+    id: 27,
+    timestamp: "Tue Mar 14 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR2B",
+  },
+  {
+    id: 28,
+    timestamp: "Fri Apr 14 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR2B",
+  },
+  {
+    id: 29,
+    timestamp: "Sun May 14 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR2B",
+  },
+  {
+    id: 30,
+    timestamp: "Wed Jun 14 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR2B",
+  },
+  {
+    id: 31,
+    timestamp: "Fri Jul 14 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR2B",
+  },
+  {
+    id: 32,
+    timestamp: "Mon Aug 14 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR2B",
+  },
+  {
+    id: 33,
+    timestamp: "Thu Sep 14 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR2B",
+  },
+  {
+    id: 34,
+    timestamp: "Sat Oct 14 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR2B",
+  },
+  {
+    id: 35,
+    timestamp: "Tue Nov 14 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR2B",
+  },
+  {
+    id: 36,
+    timestamp: "Thu Dec 14 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR2B",
+  },
+  {
+    id: 37,
+    timestamp: "Sun Jan 14 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR2B",
+  },
+  {
+    id: 38,
+    timestamp: "Wed Feb 14 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR2B",
+  },
+  {
+    id: 39,
+    timestamp: "Thu Mar 14 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR2B",
+  },
+  {
+    id: 40,
+    timestamp: "Sun Apr 14 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR2B",
+  },
+  {
+    id: 41,
+    timestamp: "Tue May 14 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR2B",
+  },
+  {
+    id: 42,
+    timestamp: "Fri Jun 14 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR2B",
+  },
+  {
+    id: 43,
+    timestamp: "Sun Jul 14 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR2B",
+  },
+  {
+    id: 44,
+    timestamp: "Wed Aug 14 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR2B",
+  },
+  {
+    id: 45,
+    timestamp: "Sat Sep 14 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR2B",
+  },
+  {
+    id: 45,
+    timestamp: "Mon Oct 14 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR2B",
+  },
+  {
+    id: 46,
+    timestamp: "Thu Nov 14 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR2B",
+  },
+  {
+    id: 48,
+    timestamp: "Sun Dec 01 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR2B",
+  },
+  {
+    id: 49,
+    timestamp: "Fri Jan 20 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR3B",
+  },
+  {
+    id: 50,
+    timestamp: "Mon Feb 20 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR3B",
+  },
+  {
+    id: 51,
+    timestamp: "Mon Mar 20 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR3B",
+  },
+  {
+    id: 52,
+    timestamp: "Sat Apr 01 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR3B",
+  },
+  {
+    id: 53,
+    timestamp: "Mon May 01 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR3B",
+  },
+  {
+    id: 54,
+    timestamp: "Tue Jun 20 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR3B",
+  },
+  {
+    id: 55,
+    timestamp: "Thu Jul 20 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR3B",
+  },
+  {
+    id: 56,
+    timestamp: "Tue Aug 01 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR3B",
+  },
+  {
+    id: 57,
+    timestamp: "Wed Sep 20 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR3B",
+  },
+  {
+    id: 58,
+    timestamp: "Sun Oct 01 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR3B",
+  },
+  {
+    id: 59,
+    timestamp: "Mon Nov 20 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR3B",
+  },
+  {
+    id: 60,
+    timestamp: "Wed Dec 20 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR3B",
+  },
+];
+export { tds, roc, income_tax, gst };
