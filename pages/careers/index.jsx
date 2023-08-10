@@ -25,10 +25,16 @@ function index() {
         <title>Careers at VBSB</title>
       </Head>
       <Header index={5} />
-      <section className="hero-section h-[275px] md:h-[375px] py-16 px-32 flex items-center justify-center bg-secondary">
-        <h1 className="text-2xl sm:text-3xl md:text-6xl text-white">
+      <section className="relative hero-section h-[275px] md:h-[475px] py-16 px-32 flex items-center justify-center bg-secondary">
+        <h1 className="text-xl sm:text-3xl md:text-6xl text-white z-30 ">
           Careers at VBSB
         </h1>
+        <img
+          src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+          alt="hero-image"
+          className="w-full h-full absolute inset-0 object-cover"
+        />
+        <div className="overlay absolute w-full h-full inset-0 bg-black/50"></div>
       </section>
       <section className="py-32 px-6 md:px-32 bg-gray-200">
         <h1 className="text-3xl text-center">
@@ -36,22 +42,20 @@ function index() {
         </h1>
         <div className="jobs mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           <JobCard
-            title="Finance Manager"
-            link="/documents/jobs/JD FM (PDF).pdf"
-          />
-          <JobCard title="HR" link="/documents/jobs/JD HR VBSB.pdf" />
-          <JobCard
-            title="Consultant"
-            link="/documents/jobs/JD for Consultant (CA-semi qualified).pdf"
+            title="Semi Qualified (consultant)"
+            link="/documents/jobs/JD CA semi Qualified (consultant).pdf"
           />
           <JobCard
-            title="Process Executive"
-            link="/documents/jobs/VBSB JD PE.pdf"
+            title="Finance Executive"
+            link="/documents/jobs/JD for Financial Accounts Assocites (4).pdf"
           />
-
           <JobCard
-            title="Consultant"
-            link="/documents/jobs/JD Consultant.pdf"
+            title="Human Resource (HR)"
+            link="/documents/jobs/JD for Humar Resource (HR) (2).pdf"
+          />
+          <JobCard
+            title="MBA Consultant"
+            link="/documents/jobs/JD for MBA (Consultant).pdf"
           />
         </div>
       </section>
