@@ -2,15 +2,18 @@ const jobs = [
   {
     id: 1,
     title: `Senior Consultant`,
-    document: `/documents/JD CA semi Qualified (consultant).pdf`,
+    document: `/documents/jobs/JD CA semi Qualified (consultant).pdf`,
     jsx: (
       <>
         <h1 className="text-3xl">Senior Consultant</h1>
         <p className="text-black/50">Bhopal</p>
         <p className="text-black/50 text-sm">Full Time</p>
-        <button className="w-full h-[42px] bg-green-600 text-white mt-3 lg:hidden">
-          Apply now
-        </button>
+        <a
+          href={"/documents/jobs/JD CA semi Qualified (consultant).pdf"}
+          className=" flex items-center justify-center w-full h-[42px] bg-green-600 text-white mt-3 lg:hidden"
+        >
+          Download JD
+        </a>
 
         <div className="mt-12">
           <h3 className="text-2xl">Job Description</h3>
@@ -83,15 +86,18 @@ const jobs = [
   {
     id: 2,
     title: `Finance Executive`,
-    document: `/documents/JD CA semi Qualified (consultant).pdf`,
+    document: `/documents/jobs/JD for Financial Accounts Assocites (4).pdf`,
     jsx: (
       <>
         <h1 className="text-3xl">Finance Executive</h1>
         <p className="text-black/50">Bhopal</p>
         <p className="text-black/50 text-sm">Full Time</p>
-        <button className="w-full h-[42px] bg-green-600 text-white mt-3 lg:hidden">
-          Apply now
-        </button>
+        <a
+          href={"/documents/jobs/JD for Financial Accounts Assocites (4).pdf"}
+          className=" flex items-center justify-center w-full h-[42px] bg-green-600 text-white mt-3 lg:hidden"
+        >
+          Download JD
+        </a>
 
         <div className="mt-12">
           <h3 className="text-2xl">Job Description</h3>
@@ -139,15 +145,18 @@ const jobs = [
   {
     id: 3,
     title: `Finance Executive`,
-    document: `/documents/JD CA semi Qualified (consultant).pdf`,
+    document: `/documents/jobs/JD for Humar Resource (HR) (2).pdf`,
     jsx: (
       <>
         <h1 className="text-3xl">Human Resource (HR)</h1>
         <p className="text-black/50">Bhopal</p>
         <p className="text-black/50 text-sm">Full Time</p>
-        <button className="w-full h-[42px] bg-green-600 text-white mt-3 lg:hidden">
-          Apply now
-        </button>
+        <a
+          href={"/documents/jobs/JD for Humar Resource (HR) (2).pdf"}
+          className=" flex items-center justify-center w-full h-[42px] bg-green-600 text-white mt-3 lg:hidden"
+        >
+          Download JD
+        </a>
 
         <div className="mt-12">
           <h3 className="text-2xl">Job Description</h3>
@@ -217,15 +226,18 @@ const jobs = [
   {
     id: 3,
     title: `Finance Executive`,
-    document: `/documents/JD CA semi Qualified (consultant).pdf`,
+    document: `/documents/jobs/JD for MBA (Consultant).pdf`,
     jsx: (
       <>
         <h1 className="text-3xl">Consultant</h1>
         <p className="text-black/50">Bhopal</p>
         <p className="text-black/50 text-sm">Full Time</p>
-        <button className="w-full h-[42px] bg-green-600 text-white mt-3 lg:hidden">
-          Apply now
-        </button>
+        <a
+          href={"/documents/jobs/JD for MBA (Consultant).pdf"}
+          className=" flex items-center justify-center w-full h-[42px] bg-green-600 text-white mt-3 lg:hidden"
+        >
+          Download JD
+        </a>
 
         <div className="mt-12">
           <h3 className="text-2xl">Job Description</h3>
