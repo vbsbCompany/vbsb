@@ -10,7 +10,7 @@ const jobs = [
         <p className="text-black/50 text-sm">Full Time</p>
         <a
           href={"/documents/jobs/JD CA semi Qualified (consultant).pdf"}
-          className=" flex items-center justify-center w-full h-[42px] bg-green-600 text-white mt-3 lg:hidden"
+          className=" flex items-center justify-center w-full h-[42px] bg-green-600 text-white mt-3 md:w-[170px]"
         >
           Download JD
         </a>
@@ -94,7 +94,7 @@ const jobs = [
         <p className="text-black/50 text-sm">Full Time</p>
         <a
           href={"/documents/jobs/JD for Financial Accounts Assocites (4).pdf"}
-          className=" flex items-center justify-center w-full h-[42px] bg-green-600 text-white mt-3 lg:hidden"
+          className=" flex items-center justify-center w-full h-[42px] bg-green-600 text-white mt-3"
         >
           Download JD
         </a>
@@ -153,7 +153,7 @@ const jobs = [
         <p className="text-black/50 text-sm">Full Time</p>
         <a
           href={"/documents/jobs/JD for Humar Resource (HR) (2).pdf"}
-          className=" flex items-center justify-center w-full h-[42px] bg-green-600 text-white mt-3 lg:hidden"
+          className=" flex items-center justify-center w-full h-[42px] bg-green-600 text-white mt-3"
         >
           Download JD
         </a>
@@ -234,7 +234,7 @@ const jobs = [
         <p className="text-black/50 text-sm">Full Time</p>
         <a
           href={"/documents/jobs/JD for MBA (Consultant).pdf"}
-          className=" flex items-center justify-center w-full h-[42px] bg-green-600 text-white mt-3 lg:hidden"
+          className=" flex items-center justify-center w-full h-[42px] bg-green-600 text-white mt-3"
         >
           Download JD
         </a>

@@ -475,5 +475,95 @@ const gst = [
     timestamp: "Wed Dec 20 2023 00:00:00 GMT+0530 (India Standard Time)",
     description: "GSTR3B",
   },
+  {
+    id: 61,
+    timestamp: "Sat Jan 20 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR3B",
+  },
+  {
+    id: 62,
+    timestamp: "Tue Feb 20 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR3B",
+  },
+  {
+    id: 63,
+    timestamp: "Wed Mar 20 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR3B",
+  },
+  {
+    id: 64,
+    timestamp: "Sat Apr 20 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR3B",
+  },
+  {
+    id: 65,
+    timestamp: "Mon May 20 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR3B",
+  },
+  {
+    id: 66,
+    timestamp: "Thu Jun 20 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR3B",
+  },
+  {
+    id: 67,
+    timestamp: "Sat Jul 20 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR3B",
+  },
+  {
+    id: 68,
+    timestamp: "Tue Aug 20 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR3B",
+  },
+  {
+    id: 69,
+    timestamp: "Fri Sep 20 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR3B",
+  },
+  {
+    id: 70,
+    timestamp: "Sun Oct 20 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR3B",
+  },
+  {
+    id: 71,
+    timestamp: "Wed Nov 20 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR3B",
+  },
+  {
+    id: 72,
+    timestamp: "Fri Dec 20 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR3B",
+  },
+  {
+    id: 72,
+    timestamp: "Sun Apr 30 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR4",
+  },
+  {
+    id: 73,
+    timestamp: "Tue Apr 30 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR4",
+  },
+  {
+    id: 73,
+    timestamp: "Sun Dec 31 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR9",
+  },
+  {
+    id: 74,
+    timestamp: "Tue Dec 31 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTR9",
+  },
+  {
+    id: 75,
+    timestamp: "Sun Dec 31 2023 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTRC",
+  },
+  {
+    id: 76,
+    timestamp: "Tue Dec 31 2024 00:00:00 GMT+0530 (India Standard Time)",
+    description: "GSTRC",
+  },
 ];
 export { tds, roc, income_tax, gst };
