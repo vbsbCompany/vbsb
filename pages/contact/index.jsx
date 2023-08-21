@@ -14,9 +14,9 @@ function index() {
   const [msg, setMessage] = useState("");
   const [emailFeedback, setEmailFeedback] = useState("");
   const [popup, setPopup] = useState(false);
+  const [status, setStatus] = useState("");
 
   const handleContact = async () => {
-    console.log(process.env.EMAIL, process.env.APP_PASSWORD);
     try {
       const r = await axios.post(`/api/contact`, {
         name: fullname,

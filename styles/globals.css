@@ -50,3 +50,7 @@ a {
   color: inherit;
   text-decoration: none;
 }
+.bulleted-list {
+  list-style: disc;
+  margin-top: 12px;
+}

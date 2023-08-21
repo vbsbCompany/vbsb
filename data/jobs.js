@@ -28,7 +28,7 @@ const jobs = [
           </p>
 
           <h3 className="text-2xl mt-3">Roles & Responsibilities</h3>
-          <ul>
+          <ul className="bulleted-list">
             <li>
               Responsible for conducting statutory audits, tax audits, and group
               reporting audits for clients across a variety of industries.
@@ -58,7 +58,7 @@ const jobs = [
           </ul>
 
           <h3 className="text-2xl mt-3">Skills</h3>
-          <ul>
+          <ul className="bulleted-list">
             <li>
               Excellent verbal and written communication skills, with the
               ability to explain complex financial concepts in a clear and
@@ -112,7 +112,7 @@ const jobs = [
           </p>
 
           <h3 className="text-2xl mt-3">Roles & Responsibilities</h3>
-          <ul>
+          <ul className="bulleted-list">
             <li>Alignment of Task to the Team.</li>
             <li>Dealing with any sort of Compliances related to Process.</li>
             <li>Preparing MIS on fortnightly basis.</li>
@@ -126,7 +126,7 @@ const jobs = [
           </ul>
 
           <h3 className="text-2xl mt-3">Technical Skills</h3>
-          <ul>
+          <ul className="bulleted-list">
             <li>Microsoft Excel</li>
             <li>Microsoft 360</li>
             <li>Outlook</li>
@@ -168,7 +168,7 @@ const jobs = [
           </p>
 
           <h3 className="text-2xl mt-3">Roles & Responsibilities</h3>
-          <ul>
+          <ul className="bulleted-list">
             <li>
               Assist in drafting job descriptions and posting job
               advertisements.
@@ -204,7 +204,7 @@ const jobs = [
           </ul>
 
           <h3 className="text-2xl mt-3">Skills</h3>
-          <ul>
+          <ul className="bulleted-list">
             <li>Strong interpersonal and communication skills.</li>
             <li>Attention to detail and organizational skills.</li>
             <li>
@@ -251,7 +251,7 @@ const jobs = [
           </p>
 
           <h3 className="text-2xl mt-3">Roles & Responsibilities</h3>
-          <ul>
+          <ul className="bulleted-list">
             <li>
               Manage financial data using Tally software or other accounting
               tools.
@@ -282,7 +282,7 @@ const jobs = [
           </ul>
 
           <h3 className="text-2xl mt-3">Skills</h3>
-          <ul>
+          <ul className="bulleted-list">
             <li>Tally prime.</li>
             <li>Advance excel and Microsoft office.</li>
           </ul>
